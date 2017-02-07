@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AIB</string>
+    <string name="logo">Logo(EN)</string>
+    <string name="menu_bt1">Auto Parts</string>
+    <string name="menu_bt2">Cars</string>
+</resources>
