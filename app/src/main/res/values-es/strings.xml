@@ -2,6 +2,1914 @@
 <resources>
     <string name="app_name">AIB</string>
     <string name="logo">Logo(ESP)</string>
+    <string name="correo">augusto.bet4@gmail.com</string>
     <string name="menu_bt1">Auto Partes</string>
     <string name="menu_bt2">Autos</string>
+    <string name="nombre">Nombre Completo:</string>
+    <string name="mail">Correo Electrónico:</string>
+    <string name="model">Marca/Modelo:</string>
+    <string name="anio">Año:</string>
+    <string name="anio_hint">1917 - 2017</string>
+    <string name="parte">Autoparte:</string>
+    <string name="especifico">Especificación:</string>
+    <string name="especifico_hint">Especifique la autoparte que necesita</string>
+    <string name="enviar">Enviar</string>
+    <string name="borrar">Borrar</string>
+    <string name="it_name">Ingrese su nombre</string>
+    <string name="it_mail">Ingrese su correo</string>
+    <string name="it_anio">Ingrese el año</string>
+    <string name="it_espe">Ingrese la especificación</string>
+    <string name="op">Seleccione una Opcion</string>
+    <string name="err_mod">Seleccione un opcion en Marca/Modelo</string>
+    <string name="err_parts">Seleccione un opcion en Autoparte</string>
+    <string name="subject">Pedido de Auto Partes</string>
+    <string name="lang">Español</string>
+    <string name="send">Enviar email.</string>
+
+
+
+
+
+    <string-array name="model_array">
+        <item>Seleccione una Opcion</item>
+        <item>AMC - AMC Ambassador</item>
+        <item>AMC - AMC American</item>
+        <item>AMC - AMC AMX</item>
+        <item>AMC - AMC Classic</item>
+        <item>AMC - AMC Concord</item>
+        <item>AMC - AMC Eagle</item>
+        <item>AMC - AMC Gremlin</item>
+        <item>AMC - AMC Hornet</item>
+        <item>AMC - AMC Javelin</item>
+        <item>AMC - AMC Marlin</item>
+        <item>AMC - AMC Matador</item>
+        <item>AMC - AMC Pacer</item>
+        <item>AMC - AMC Rambler</item>
+        <item>AMC - AMC Rebel</item>
+        <item>AMC - AMC Spirit</item>
+        <item>AMC - AMC Other</item>
+        <item>Acura - Acura CL</item>
+        <item>Acura - Acura CSX</item>
+        <item>Acura - Acura EL</item>
+        <item>Acura - Acura ILX</item>
+        <item>Acura - Acura Integra</item>
+        <item>Acura - Acura Legends</item>
+        <item>Acura - Acura MDX</item>
+        <item>Acura - Acura NSX</item>
+        <item>Acura - Acura RDX</item>
+        <item>Acura - Acura RL</item>
+        <item>Acura - Acura RSX</item>
+        <item>Acura - Acura SLX</item>
+        <item>Acura - Acura TL</item>
+        <item>Acura - Acura TLX</item>
+        <item>Acura - Acura TSX</item>
+        <item>Acura - Acura Vigor</item>
+        <item>Acura - Acura ZDX</item>
+        <item>Alfa - Alfa 147</item>
+        <item>Alfa - Alfa 164 Sedan</item>
+        <item>Alfa - Alfa 1750</item>
+        <item>Alfa - Alfa 4C</item>
+        <item>Alfa - Alfa Alfetta</item>
+        <item>Alfa - Alfa GTV6</item>
+        <item>Alfa - Alfa Giulia 1600</item>
+        <item>Alfa - Alfa Giulietta</item>
+        <item>Alfa - Alfa Milano</item>
+        <item>Alfa - Alfa Mito</item>
+        <item>Alfa - Alfa Spider-1600</item>
+        <item>Alfa - Alfa Spider-1600 Duetto</item>
+        <item>Alfa - Alfa Spider-2000</item>
+        <item>Aston - Aston Martin</item>
+        <item>Asuna - Asuna</item>
+        <item>Audi - Audi 100</item>
+        <item>Audi - Audi 200</item>
+        <item>Audi - Audi 4000 2 &amp; 4 Door Sedan</item>
+        <item>Audi - Audi 4000 Quattro</item>
+        <item>Audi - Audi 5000 &amp; 5000 Quattro</item>
+        <item>Audi - Audi 80 Series</item>
+        <item>Audi - Audi 90 Series</item>
+        <item>Audi - Audi A3</item>
+        <item>Audi - Audi A4</item>
+        <item>Audi - Audi A5</item>
+        <item>Audi - Audi A6</item>
+        <item>Audi - Audi A7</item>
+        <item>Audi - Audi A8</item>
+        <item>Audi - Audi AallRoad</item>
+        <item>Audi - Audi Cabriolet</item>
+        <item>Audi - Audi Coupe GT</item>
+        <item>Audi - Audi Coupe Quattro</item>
+        <item>Audi - Audi Fox</item>
+        <item>Audi - Audi Q3</item>
+        <item>Audi - Audi Q5</item>
+        <item>Audi - Audi Q7</item>
+        <item>Audi - Audi R8</item>
+        <item>Audi - Audi RS4</item>
+        <item>Audi - Audi RS5</item>
+        <item>Audi - Audi RS6</item>
+        <item>Audi - Audi RS7</item>
+        <item>Audi - Audi S3</item>
+        <item>Audi - Audi S4</item>
+        <item>Audi - Audi S5</item>
+        <item>Audi - Audi S6</item>
+        <item>Audi - Audi S7</item>
+        <item>Audi - Audi S8</item>
+        <item>Audi - Audi SQ5</item>
+        <item>Audi - Audi Sport Coupe</item>
+        <item>Audi - Audi Super 90</item>
+        <item>Audi - Audi TT</item>
+        <item>Audi - Audi V8 Quattro</item>
+        <item>Austin - Austin</item>
+        <item>Autocar - Autocar</item>
+        <item>Avanti - Avanti</item>
+        <item>BMW - BMW 1M</item>
+        <item>BMW - BMW 128i</item>
+        <item>BMW - BMW 135i</item>
+        <item>BMW - BMW 1602</item>
+        <item>BMW - BMW 1800</item>
+        <item>BMW - BMW 228i</item>
+        <item>BMW - BMW 2002</item>
+        <item>BMW - BMW 2500</item>
+        <item>BMW - BMW 2800</item>
+        <item>BMW - BMW 3.0"</item>
+        <item>BMW - BMW 318i</item>
+        <item>BMW - BMW 320i</item>
+        <item>BMW - BMW 323i</item>
+        <item>BMW - BMW 325e</item>
+        <item>BMW - BMW 325i</item>
+        <item>BMW - BMW 328i</item>
+        <item>BMW - BMW 328i GT</item>
+        <item>BMW - BMW 330e</item>
+        <item>BMW - BMW 330i</item>
+        <item>BMW - BMW 335i</item>
+        <item>BMW - BMW 335i GT</item>
+        <item>BMW - BMW 340i</item>
+        <item>BMW - BMW 428i</item>
+        <item>BMW - BMW 435i</item>
+        <item>BMW - BMW 524TD</item>
+        <item>BMW - BMW 525i</item>
+        <item>BMW - BMW 528e</item>
+        <item>BMW - BMW 528i</item>
+        <item>BMW - BMW 530i</item>
+        <item>BMW - BMW 533i</item>
+        <item>BMW - BMW 535i</item>
+        <item>BMW - BMW 535i GT</item>
+        <item>BMW - BMW 540i</item>
+        <item>BMW - BMW 545i</item>
+        <item>BMW - BMW 550i</item>
+        <item>BMW - BMW 550i GT</item>
+        <item>BMW - BMW 630CSi</item>
+        <item>BMW - BMW 633CSi</item>
+        <item>BMW - BMW 635CSi</item>
+        <item>BMW - BMW 640i</item>
+        <item>BMW - BMW 645Ci</item>
+        <item>BMW - BMW 650i</item>
+        <item>BMW - BMW 728</item>
+        <item>BMW - BMW 732</item>
+        <item>BMW - BMW 733i</item>
+        <item>BMW - BMW 735i</item>
+        <item>BMW - BMW 740i</item>
+        <item>BMW - BMW 745i</item>
+        <item>BMW - BMW 750i</item>
+        <item>BMW - BMW 760i</item>
+        <item>BMW - BMW 840i</item>
+        <item>BMW - BMW 850i</item>
+        <item>BMW - BMW ActiveE</item>
+        <item>BMW - BMW ActiveHybrid 3</item>
+        <item>BMW - BMW ActiveHybrid 5</item>
+        <item>BMW - BMW ActiveHybrid 7</item>
+        <item>BMW - BMW Alpina B6</item>
+        <item>BMW - BMW Alpina B7</item>
+        <item>BMW - BMW I3</item>
+        <item>BMW - BMW I8</item>
+        <item>BMW - BMW L6</item>
+        <item>BMW - BMW M1</item>
+        <item>BMW - BMW M2</item>
+        <item>BMW - BMW M3</item>
+        <item>BMW - BMW M4</item>
+        <item>BMW - BMW M5</item>
+        <item>BMW - BMW M6</item>
+        <item>BMW - BMW M235i</item>
+        <item>BMW - BMW Mini Cooper</item>
+        <item>BMW - BMW Mini Cooper Clubman</item>
+        <item>BMW - BMW Mini Cooper Countryman</item>
+        <item>BMW - BMW Mini Cooper Paceman</item>
+        <item>BMW - BMW X1</item>
+        <item>BMW - BMW X3</item>
+        <item>BMW - BMW X4</item>
+        <item>BMW - BMW X5</item>
+        <item>BMW - BMW X5M</item>
+        <item>BMW - BMW X6</item>
+        <item>BMW - BMW X6M</item>
+        <item>BMW - BMW Z3</item>
+        <item>BMW - BMW Z4</item>
+        <item>BMW - BMW Z8</item>
+        <item>BMW - BMW Other</item>
+        <item>Bentley - Bentley</item>
+        <item>Bricklin - Bricklin</item>
+        <item>Brockway - Brockway</item>
+        <item>Buick - Buick Allure</item>
+        <item>Buick - Buick Apollo</item>
+        <item>Buick - Buick Cascada</item>
+        <item>Buick - Buick Century</item>
+        <item>Buick - Buick Electra (1979 Down)</item>
+        <item>Buick - Buick Electra (1980 Up)</item>
+        <item>Buick - Buick Enclave</item>
+        <item>Buick - Buick Encore</item>
+        <item>Buick - Buick Envision</item>
+        <item>Buick - Buick Lacrosse</item>
+        <item>Buick - Buick LeSabre (1979 Down)</item>
+        <item>Buick - Buick LeSabre (1980 Up)</item>
+        <item>Buick - Buick Limited</item>
+        <item>Buick - Buick Lucerne</item>
+        <item>Buick - Buick Park Ave (1979 Down)</item>
+        <item>Buick - Buick Park Ave (1980 Up)</item>
+        <item>Buick - Buick Rainier</item>
+        <item>Buick - Buick Reatta</item>
+        <item>Buick - Buick Regal</item>
+        <item>Buick - Buick Regal Somerset (1984 Down)</item>
+        <item>Buick - Buick Rendezvous</item>
+        <item>Buick - Buick Riviera</item>
+        <item>Buick - Buick Roadmaster (1979 Down)</item>
+        <item>Buick - Buick Roadmaster (1980 Up)</item>
+        <item>Buick - Buick Skyhawk</item>
+        <item>Buick - Buick Skylark</item>
+        <item>Buick - Buick Somerset (1985 Up)</item>
+        <item>Buick - Buick Special</item>
+        <item>Buick - Buick Terraza</item>
+        <item>Buick - Buick Verano</item>
+        <item>Buick - Buick Other</item>
+        <item>Cadillac - Cadillac Allante</item>
+        <item>Cadillac - Cadillac ATS</item>
+        <item>Cadillac - Cadillac Brougham</item>
+        <item>Cadillac - Cadillac CT6</item>
+        <item>Cadillac - Cadillac CTS</item>
+        <item>Cadillac - Cadillac Catera</item>
+        <item>Cadillac - Cadillac Cimarron</item>
+        <item>Cadillac - Cadillac Concours</item>
+        <item>Cadillac - Cadillac DeVille (1979 Down)</item>
+        <item>Cadillac - Cadillac DeVille (1980 Up)</item>
+        <item>Cadillac - Cadillac DHS</item>
+        <item>Cadillac - Cadillac DTS (2005 Down)</item>
+        <item>Cadillac - Cadillac DTS (2006 Up)</item>
+        <item>Cadillac - Cadillac ELR</item>
+        <item>Cadillac - Cadillac Eldorado (1966 Down)</item>
+        <item>Cadillac - Cadillac Eldorado (1967 Up)</item>
+        <item>Cadillac - Cadillac Escalade</item>
+        <item>Cadillac - Cadillac Escalade-ESV</item>
+        <item>Cadillac - Cadillac Escalade-EXT</item>
+        <item>Cadillac - Cadillac Fleetwood (1979 Down)</item>
+        <item>Cadillac - Cadillac Fleetwood (1980 Up)</item>
+        <item>Cadillac - Cadillac Seville (incl STS)</item>
+        <item>Cadillac - Cadillac SRX</item>
+        <item>Cadillac - Cadillac STS</item>
+        <item>Cadillac - Cadillac XLR</item>
+        <item>Cadillac - Cadillac XT5</item>
+        <item>Cadillac - Cadillac XTS</item>
+        <item>Cadillac - Cadillac Other</item>
+        <item>Checker - Checker</item>
+        <item>Checker - Checker Cab</item>
+        <item>Chevy - Chevy Astra</item>
+        <item>Chevy - Chevy Astro</item>
+        <item>Chevy - Chevy Aveo</item>
+        <item>Chevy - Chevy Beretta</item>
+        <item>Chevy - Chevy Blazer, Full Size</item>
+        <item>Chevy - Chevy Blazer, S10/S15</item>
+        <item>Chevy - Chevy C2</item>
+        <item>Chevy - Chevy Camaro</item>
+        <item>Chevy - Chevy Caprice (1979 Down)</item>
+        <item>Chevy - Chevy Caprice (1980 Up)</item>
+        <item>Chevy - Chevy Captiva Sport</item>
+        <item>Chevy - Chevy Cavalier</item>
+        <item>Chevy - Chevy Celebrity</item>
+        <item>Chevy - Chevy Chevelle</item>
+        <item>Chevy - Chevy Chevette</item>
+        <item>Chevy - Chevy Pickup FWD (Non US Mkt)</item>
+        <item>Chevy - Chevy Small Car (Non US Mkt)</item>
+        <item>Chevy - Chevy Citation</item>
+        <item>Chevy - Chevy City Express</item>
+        <item>Chevy - Chevy Cobalt</item>
+        <item>Chevy - Chevy Corsa</item>
+        <item>Chevy - Chevy Corsica</item>
+        <item>Chevy - Chevy Corvair</item>
+        <item>Chevy - Chevy Corvette</item>
+        <item>Chevy - Chevy Cruze</item>
+        <item>Chevy - Chevy El Camino (1963 Down)</item>
+        <item>Chevy - Chevy El Camino (1964-1977)</item>
+        <item>Chevy - Chevy El Camino (1978 Up)</item>
+        <item>Chevy - Chevy Epica</item>
+        <item>Chevy - Chevy Equinox</item>
+        <item>Chevy - Chevy HHR</item>
+        <item>Chevy - Chevy Impala (1979 Down)</item>
+        <item>Chevy - Chevy Impala (1980 Up)</item>
+        <item>Chevy - Chevy Lumina Car</item>
+        <item>Chevy - Chevy Lumina Van</item>
+        <item>Chevy - Chevy Luv (See Also Isuzu Mini P-Up)</item>
+        <item>Chevy - Chevy Malibu</item>
+        <item>Chevy - Chevy Meriva</item>
+        <item>Chevy - Chevy Metro</item>
+        <item>Chevy - Chevy Monte Carlo</item>
+        <item>Chevy - Chevy Monza</item>
+        <item>Chevy - Chevy Nova &amp; Chevy II (1967 Down)</item>
+        <item>Chevy - Chevy Nova (1968 Up)</item>
+        <item>Chevy - Chevy Optra</item>
+        <item>Chevy - Chevy Orlando</item>
+        <item>Chevy - Chevy Prizm</item>
+        <item>Chevy - Chevy S/10/S15/Sonoma</item>
+        <item>Chevy - Chevy Sonic</item>
+        <item>Chevy - Chevy Spark</item>
+        <item>Chevy - Chevy Spectrum</item>
+        <item>Chevy - Chevy Sprint</item>
+        <item>Chevy - Chevy SS</item>
+        <item>Chevy - Chevy SSR</item>
+        <item>Chevy - Chevy Suburban-10 (1988 Down)</item>
+        <item>Chevy - Chevy Suburban-20 (1988 Down)</item>
+        <item>Chevy - Chevy Suburban-30 (1966 Down)</item>
+        <item>Chevy - Chevy Suburban-1000 (1963-1966)</item>
+        <item>Chevy - Chevy Suburban-1500</item>
+        <item>Chevy - Chevy Suburban-2500 (1967 Up)</item>
+        <item>Chevy - Chevy Suburban-3500</item>
+        <item>Chevy - Chevy Tahoe</item>
+        <item>Chevy - Chevy Tigra</item>
+        <item>Chevy - Chevy Tornado</item>
+        <item>Chevy - Chevy Tracker</item>
+        <item>Chevy - Chevy TrailBlazer</item>
+        <item>Chevy - Chevy TrailBlazer-EXT</item>
+        <item>Chevy - Chevy Traverse</item>
+        <item>Chevy - Chevy Trax</item>
+        <item>Chevy - Chevy Truck-10 Series (1987 Down)</item>
+        <item>Chevy - Chevy Truck-20 Series (1988 Down)</item>
+        <item>Chevy - Chevy Truck-30 Series (1988 Down)</item>
+        <item>Chevy - Chevy Truck-1500 Series (1988-1999)</item>
+        <item>Chevy - Chevy Truck-2500 Series (1988-2000)</item>
+        <item>Chevy - Chevy Truck-3500 Series (1988-2001)</item>
+        <item>Chevy - Chevy Truck-Avalanche 1500</item>
+        <item>Chevy - Chevy Truck-Avalanche 2500</item>
+        <item>Chevy - Chevy Truck-C3100</item>
+        <item>Chevy - Chevy Truck-C3600</item>
+        <item>Chevy - Chevy Truck-C3800</item>
+        <item>Chevy - Chevy Truck-Colorado</item>
+        <item>Chevy - Chevy Truck-Forward Control</item>
+        <item>Chevy - Chevy Truck-Kodiak</item>
+        <item>Chevy - Chevy Truck-Luv Mini Pup</item>
+        <item>Chevy - Chevy Truck-S10/S15/Sonoma</item>
+        <item>Chevy - Chevy Truck-Silverado 1500 (1999 Up)</item>
+        <item>Chevy - Chevy Truck-Silverado 2500 (1999 Up)</item>
+        <item>Chevy - Chevy Truck-Silverado 3500 (2001 Up)</item>
+        <item>Chevy - Chevy Truck-Tilt Cab</item>
+        <item>Chevy - Chevy Uplander</item>
+        <item>Chevy - Chevy Van 10</item>
+        <item>Chevy - Chevy Van 20</item>
+        <item>Chevy - Chevy Van 30</item>
+        <item>Chevy - Chevy Van Express 1500</item>
+        <item>Chevy - Chevy Van Express 2500</item>
+        <item>Chevy - Chevy Van Express 3500</item>
+        <item>Chevy - Chevy Vectra</item>
+        <item>Chevy - Chevy Vega</item>
+        <item>Chevy - Chevy Venture</item>
+        <item>Chevy - Chevy Volt</item>
+        <item>Chevy - Chevy Zafira</item>
+        <item>Chevy - Chevy Other</item>
+        <item>Chrysler - Chrysler 200</item>
+        <item>Chrysler - Chrysler 300</item>
+        <item>Chrysler - Chrysler 300M</item>
+        <item>Chrysler - Chrysler Aspen</item>
+        <item>Chrysler - Chrysler Atos</item>
+        <item>Chrysler - Chrysler Attitude</item>
+        <item>Chrysler - Chrysler Cirrus</item>
+        <item>Chrysler - Chrysler Concorde</item>
+        <item>Chrysler - Chrysler Conquest"</item>
+        <item>Chrysler - Chrysler Cordoba</item>
+        <item>Chrysler - Chrysler Crossfire</item>
+        <item>Chrysler - Chrysler E Class</item>
+        <item>Chrysler - Chrysler Fifth Avenue - FWD</item>
+        <item>Chrysler - Chrysler Fifth Avenue - RWD (1979 Up)</item>
+        <item>Chrysler - Chrysler Imperial</item>
+        <item>Chrysler - Chrysler LHS</item>
+        <item>Chrysler - Chrysler Laser</item>
+        <item>Chrysler - Chrysler Lebaron</item>
+        <item>Chrysler - Chrysler New Yorker - FWD"</item>
+        <item>Chrysler - Chrysler New Yorker - RWD"</item>
+        <item>Chrysler - Chrysler Newport</item>
+        <item>Chrysler - Chrysler Pacifica</item>
+        <item>Chrysler - Chrysler Prowler</item>
+        <item>Chrysler - Chrysler PT Cruiser</item>
+        <item>Chrysler - Chrysler Sebring</item>
+        <item>Chrysler - Chrysler TC</item>
+        <item>Chrysler - Chrysler Town and Country</item>
+        <item>Chrysler - Chrysler Voyager</item>
+        <item>Chrysler - Chrysler Other</item>
+        <item>Citroen - Citroen</item>
+        <item>Daewoo - Daewoo Lanos</item>
+        <item>Daewoo - Daewoo Leganza</item>
+        <item>Daewoo - Daewoo Nubira</item>
+        <item>Daihatsu - Daihatsu Charade</item>
+        <item>Daihatsu - Daihatsu Hijet</item>
+        <item>Daihatsu - Daihatsu Rocky</item>
+        <item>Delorean - Delorean</item>
+        <item>Desoto - Desoto</item>
+        <item>Diamond - Diamond Reo</item>
+        <item>Dodge - Dodge 400</item>
+        <item>Dodge - Dodge 600</item>
+        <item>Dodge - Dodge Aries</item>
+        <item>Dodge - Dodge Aspen</item>
+        <item>Dodge - Dodge Avenger</item>
+        <item>Dodge - Dodge Caliber</item>
+        <item>Dodge - Dodge Caravan</item>
+        <item>Dodge - Dodge Challenger (Chrysler)</item>
+        <item>Dodge - Dodge Challenger (Mitsubishi)</item>
+        <item>Dodge - Dodge Charger</item>
+        <item>Dodge - Dodge Colt-not Vista</item>
+        <item>Dodge - Dodge Colt Vista</item>
+        <item>Dodge - Dodge Cricket</item>
+        <item>Dodge - Dodge D50/Ram 50 (See also Plymouth Arrow Truck)</item>
+        <item>Dodge - Dodge Dakota</item>
+        <item>Dodge - Dodge Dart</item>
+        <item>Dodge - Dodge Daytona</item>
+        <item>Dodge - Dodge Diplomat</item>
+        <item>Dodge - Dodge Durango</item>
+        <item>Dodge - Dodge Dynasty</item>
+        <item>Dodge - Dodge Intrepid</item>
+        <item>Dodge - Dodge Journey</item>
+        <item>Dodge - Dodge Lancer</item>
+        <item>Dodge - Dodge Magnum</item>
+        <item>Dodge - Dodge Mirada</item>
+        <item>Dodge - Dodge Monaco (1978 Down)</item>
+        <item>Dodge - Dodge Monaco (1990 Up)</item>
+        <item>Dodge - Dodge Neon</item>
+        <item>Dodge - Dodge Nitro</item>
+        <item>Dodge - Dodge Omni</item>
+        <item>Dodge - Dodge Promaster 1500</item>
+        <item>Dodge - Dodge Promaster 2500</item>
+        <item>Dodge - Dodge Promaster 3500</item>
+        <item>Dodge - Dodge Raider</item>
+        <item>Dodge - Dodge Ramcharger</item>
+        <item>Dodge - Dodge Rampage</item>
+        <item>Dodge - Dodge Shadow</item>
+        <item>Dodge - Dodge Spirit</item>
+        <item>Dodge - Dodge St Regis</item>
+        <item>Dodge - Dodge Stealth</item>
+        <item>Dodge - Dodge Stratus</item>
+        <item>Dodge - Dodge Truck-100 Series (1989 Down)</item>
+        <item>Dodge - Dodge Truck-200 Series (1980 Down)</item>
+        <item>Dodge - Dodge Truck-300 Series (1980 Down)</item>
+        <item>Dodge - Dodge Truck-400 Series</item>
+        <item>Dodge - Dodge Truck-150 (1978-1993)</item>
+        <item>Dodge - Dodge Truck-250 Series (1981-1993)</item>
+        <item>Dodge - Dodge Truck-350 Series (1981-1993)</item>
+        <item>Dodge - Dodge Truck-450 Series</item>
+        <item>Dodge - Dodge Truck-1500 (1994 Up)</item>
+        <item>Dodge - Dodge Truck-2500 Series (1994 Up)</item>
+        <item>Dodge - Dodge Truck-3500 (1994 Up)</item>
+        <item>Dodge - Dodge Truck-4500 Series</item>
+        <item>Dodge - Dodge Truck-5500 Series</item>
+        <item>Dodge - Dodge Truck-D50/Ram 50</item>
+        <item>Dodge - Dodge Truck-Dakota</item>
+        <item>Dodge - Dodge Truck-Forward Control</item>
+        <item>Dodge - Dodge Truck-Rampage</item>
+        <item>Dodge - Dodge Van 100</item>
+        <item>Dodge - Dodge Van 150</item>
+        <item>Dodge - Dodge Van 200</item>
+        <item>Dodge - Dodge Van 250</item>
+        <item>Dodge - Dodge Van 300</item>
+        <item>Dodge - Dodge Van 350</item>
+        <item>Dodge - Dodge Van 1500</item>
+        <item>Dodge - Dodge Van 2500</item>
+        <item>Dodge - Dodge Van 3500</item>
+        <item>Dodge - Dodge Van (Promaster City)</item>
+        <item>Dodge - Dodge Van (Sprinter 2500)</item>
+        <item>Dodge - Dodge Van (Sprinter 3500)</item>
+        <item>Dodge - Dodge Verna</item>
+        <item>Dodge - Dodge Viper</item>
+        <item>Dodge - Dodge Other</item>
+        <item>Eagle - Eagle 2000 GTX</item>
+        <item>Eagle - Eagle Premier</item>
+        <item>Eagle - Eagle Summit</item>
+        <item>Eagle - Eagle Talon</item>
+        <item>Eagle - Eagle Vision</item>
+        <item>Edsel - Edsel</item>
+        <item>FWD - FWD Trucks</item>
+        <item>Ferrari - Ferrari</item>
+        <item>Fiat - Fiat 1100R</item>
+        <item>Fiat - Fiat 124 (includes Spider)</item>
+        <item>Fiat - Fiat 128</item>
+        <item>Fiat - Fiat 131/Brava</item>
+        <item>Fiat - Fiat 500</item>
+        <item>Fiat - Fiat 600</item>
+        <item>Fiat - Fiat 850</item>
+        <item>Fiat - Fiat Spider (includes 2000)</item>
+        <item>Fiat - Fiat Strada</item>
+        <item>Fiat - Fiat X 1/9</item>
+        <item>Fiat - Fiat Other</item>
+        <item>Fisker - Fisker Karma</item>
+        <item>Ford - Ford 500</item>
+        <item>Ford - Ford Aerostar</item>
+        <item>Ford - Ford Aspire</item>
+        <item>Ford - Ford Bronco (Full Size)</item>
+        <item>Ford - Ford Bronco II</item>
+        <item>Ford - Ford C-Max</item>
+        <item>Ford - Ford Contour</item>
+        <item>Ford - Ford Cortina</item>
+        <item>Ford - Ford Courier</item>
+        <item>Ford - Ford Crown Vic (1982 Down)</item>
+        <item>Ford - Ford Crown Vic (1983 Up)</item>
+        <item>Ford - Ford Ecosport</item>
+        <item>Ford - Ford Edge</item>
+        <item>Ford - Ford Escape</item>
+        <item>Ford - Ford Escort</item>
+        <item>Ford - Ford Excursion</item>
+        <item>Ford - Ford EXP</item>
+        <item>Ford - Ford Expedition</item>
+        <item>Ford - Ford Explorer</item>
+        <item>Ford - Ford Fairlane</item>
+        <item>Ford - Ford Fairmont</item>
+        <item>Ford - Ford Falcon</item>
+        <item>Ford - Ford Festiva</item>
+        <item>Ford - Ford Fiesta</item>
+        <item>Ford - Ford Five Hundred</item>
+        <item>Ford - Ford Flex</item>
+        <item>Ford - Ford Focus</item>
+        <item>Ford - Ford Focus RS</item>
+        <item>Ford - Ford Freestar</item>
+        <item>Ford - Ford Freestyle</item>
+        <item>Ford - Ford Fusion</item>
+        <item>Ford - Ford Galaxie</item>
+        <item>Ford - Ford Granada</item>
+        <item>Ford - Ford GT</item>
+        <item>Ford - Ford Ikon</item>
+        <item>Ford - Ford KA</item>
+        <item>Ford - Ford LTD (1978 Down)</item>
+        <item>Ford - Ford LTD (1979 Up)</item>
+        <item>Ford - Ford LTD II</item>
+        <item>Ford - Ford Maverick</item>
+        <item>Ford - Ford Mondeo</item>
+        <item>Ford - Ford Mustang</item>
+        <item>Ford - Ford Pinto</item>
+        <item>Ford - Ford Probe</item>
+        <item>Ford - Ford Ranchero (1967-1970)</item>
+        <item>Ford - Ford Ranchero (1971-1976)</item>
+        <item>Ford - Ford Ranchero (1977 up)</item>
+        <item>Ford - Ford Ranchero (1957-1959)</item>
+        <item>Ford - Ford Ranchero (1960-1966)</item>
+        <item>Ford - Ford Ranger</item>
+        <item>Ford - Ford Taurus</item>
+        <item>Ford - Ford Taurus X</item>
+        <item>Ford - Ford Tempo</item>
+        <item>Ford - Ford ThinkCity-Electric</item>
+        <item>Ford - Ford Thunderbird</item>
+        <item>Ford - Ford Torino</item>
+        <item>Ford - Ford Transit 150</item>
+        <item>Ford - Ford Transit 250</item>
+        <item>Ford - Ford Transit 350</item>
+        <item>Ford - Ford Transit Connect</item>
+        <item>Ford - Ford Truck-Courier</item>
+        <item>Ford - Ford Truck-F100</item>
+        <item>Ford - Ford Truck-F150</item>
+        <item>Ford - Ford Truck-F150 Raptor</item>
+        <item>Ford - Ford Truck-F250 not Super Duty (1999 Down)</item>
+        <item>Ford - Ford Truck-F250 Super Duty (1999 Up)</item>
+        <item>Ford - Ford Truck-F350 not Super Duty (1997 Down)</item>
+        <item>Ford - Ford Truck-F350 Super Duty (1999 Up)</item>
+        <item>Ford - Ford Truck-F450 not Super Duty (1997 Down)</item>
+        <item>Ford - Ford Truck-F450 Super Duty (1999 Up)</item>
+        <item>Ford - Ford Truck-F550 Super Duty (1999 Up)</item>
+        <item>Ford - Ford Truck-Forward Control</item>
+        <item>Ford - Ford Truck-Ranger</item>
+        <item>Ford - Ford Van E100</item>
+        <item>Ford - Ford Van E150</item>
+        <item>Ford - Ford Van E200</item>
+        <item>Ford - Ford Van E250</item>
+        <item>Ford - Ford Van E300</item>
+        <item>Ford - Ford Van E350</item>
+        <item>Ford - Ford Van E450 Super Duty</item>
+        <item>Ford - Ford Van E550 Super Duty</item>
+        <item>Ford - Ford Windstar</item>
+        <item>Ford - Ford Other</item>
+        <item>Freightliner - Freightliner</item>
+        <item>Freuhauf - Freuhauf</item>
+        <item>GMC - GMC Acadia</item>
+        <item>GMC - GMC Jimmy, Full Sizen</item>
+        <item>GMC - GMC Jimmy, S10/S15</item>
+        <item>GMC - GMC Safari Van</item>
+        <item>GMC - GMC Sprint</item>
+        <item>GMC - GMC Suburban-10 (1988 Down)</item>
+        <item>GMC - GMC Suburban-20 (1988 Down)</item>
+        <item>GMC - GMC Suburban-30 (1965-1966)</item>
+        <item>GMC - GMC Suburban-1000 (1965-1966)</item>
+        <item>GMC - GMC Suburban-1500 (2001 Down)</item>
+        <item>GMC - GMC Suburban-2500 (1967 Up)</item>
+        <item>GMC - GMC Syclone</item>
+        <item>GMC - GMC Terrain</item>
+        <item>GMC - GMC Truck-1000 Series (1966 Down)</item>
+        <item>GMC - GMC Truck-1500 Series (1999 Down)</item>
+        <item>GMC - GMC Truck-2500 Series (2000 Down)</item>
+        <item>GMC - GMC Truck-3500 Series (2001 Down)</item>
+        <item>GMC - GMC Truck-Canyon</item>
+        <item>GMC - GMC Truck-Envoy</item>
+        <item>GMC - GMC Truck-Envoy XL</item>
+        <item>GMC - GMC Truck-Envoy XUV</item>
+        <item>GMC - GMC Truck-Forward Control</item>
+        <item>GMC - GMC Truck-S10/S15/Sonoma</item>
+        <item>GMC - GMC Truck-Sierra 1500 (1999 Up)</item>
+        <item>GMC - GMC Truck-Sierra 2500 (1999 Up)</item>
+        <item>GMC - GMC Truck-Sierra 3500 (2001 Up)</item>
+        <item>GMC - GMC Truck-Sierra Denali</item>
+        <item>GMC - GMC Truck-Sierra Denali 1500 (2011 Up)</item>
+        <item>GMC - GMC Truck-Sierra Denali 2500 (2011 Up)</item>
+        <item>GMC - GMC Truck-Sierra Denali 3500 (2011 Up)</item>
+        <item>GMC - GMC Truck-Topkick</item>
+        <item>GMC - GMC Truck-Yukon (except XL)</item>
+        <item>GMC - GMC Truck-Yukon XL1500</item>
+        <item>GMC - GMC Truck-Yukon XL2500</item>
+        <item>GMC - GMC Typhoon</item>
+        <item>GMC - GMC Van 1000</item>
+        <item>GMC - GMC Van 1500</item>
+        <item>GMC - GMC Van 2500</item>
+        <item>GMC - GMC Van 3500</item>
+        <item>GMC - GMC Van Savana 1500</item>
+        <item>GMC - GMC Van Savana 2500</item>
+        <item>GMC - GMC Van Savana 3500</item>
+        <item>Geo - Geo Metro</item>
+        <item>Geo - Geo Prizm</item>
+        <item>Geo - Geo Spectrum</item>
+        <item>Geo - Geo Storm</item>
+        <item>Geo - Geo Tracker</item>
+        <item>Hino - Hino Truck</item>
+        <item>Honda - Honda 600</item>
+        <item>Honda - Honda Accord</item>
+        <item>Honda - Honda Acty</item>
+        <item>Honda - Honda Civic</item>
+        <item>Honda - Honda Crosstour</item>
+        <item>Honda - Honda CRV</item>
+        <item>Honda - Honda CRX</item>
+        <item>Honda - Honda CRZ</item>
+        <item>Honda - Honda DelSol</item>
+        <item>Honda - Honda Element</item>
+        <item>Honda - Honda FCX</item>
+        <item>Honda - Honda Fit</item>
+        <item>Honda - Honda HRV</item>
+        <item>Honda - Honda Insight</item>
+        <item>Honda - Honda Odyssey</item>
+        <item>Honda - Honda Passport</item>
+        <item>Honda - Honda Pilot</item>
+        <item>Honda - Honda Prelude</item>
+        <item>Honda - Honda Ridgeline</item>
+        <item>Honda - Honda S2000</item>
+        <item>Hudson - Hudson</item>
+        <item>Hummer - Hummer</item>
+        <item>Hummer - Hummer H1</item>
+        <item>Hummer - Hummer H2</item>
+        <item>Hummer - Hummer H3</item>
+        <item>Hyundai - Hyundai Accent</item>
+        <item>Hyundai - Hyundai Azera</item>
+        <item>Hyundai - Hyundai Elantra</item>
+        <item>Hyundai - Hyundai Entourage</item>
+        <item>Hyundai - Hyundai Equus</item>
+        <item>Hyundai - Hyundai Excel</item>
+        <item>Hyundai - Hyundai Genesis</item>
+        <item>Hyundai - Hyundai Pony</item>
+        <item>Hyundai - Hyundai Santa Fe</item>
+        <item>Hyundai - Hyundai Scoupe</item>
+        <item>Hyundai - Hyundai Sonata</item>
+        <item>Hyundai - Hyundai Stellar</item>
+        <item>Hyundai - Hyundai Tiburon</item>
+        <item>Hyundai - Hyundai Tucson</item>
+        <item>Hyundai - Hyundai Veloster</item>
+        <item>Hyundai - Hyundai Veracruz</item>
+        <item>Hyundai - Hyundai XG Series</item>
+        <item>IH - IH (All except Scout)</item>
+        <item>IH - IH Scout &amp; Scout I</item>I
+        <item>Infiniti - Infiniti EX35</item>
+        <item>Infiniti - Infiniti EX37</item>
+        <item>Infiniti - Infiniti FX</item>
+        <item>Infiniti - Infiniti G20</item>
+        <item>Infiniti - Infiniti G25</item>
+        <item>Infiniti - Infiniti G35</item>
+        <item>Infiniti - Infiniti G37</item>
+        <item>Infiniti - Infiniti I30</item>
+        <item>Infiniti - Infiniti I35</item>
+        <item>Infiniti - Infiniti J30</item>
+        <item>Infiniti - Infiniti JX35</item>
+        <item>Infiniti - Infiniti M30</item>
+        <item>Infiniti - Infiniti M35</item>
+        <item>Infiniti - Infiniti M37</item>
+        <item>Infiniti - Infiniti M45</item>
+        <item>Infiniti - Infiniti M56</item>
+        <item>Infiniti - Infiniti Q40</item>
+        <item>Infiniti - Infiniti Q45</item>
+        <item>Infiniti - Infiniti Q50</item>
+        <item>Infiniti - Infiniti Q60</item>
+        <item>Infiniti - Infiniti Q70</item>
+        <item>Infiniti - Infiniti QX4</item>
+        <item>Infiniti - Infiniti QX50</item>
+        <item>Infiniti - Infiniti QX56</item>
+        <item>Infiniti - Infiniti QX60</item>
+        <item>Infiniti - Infiniti QX70</item>
+        <item>Infiniti - Infiniti QX80</item>
+        <item>Isuzu - Isuzu Amigo</item>
+        <item>Isuzu - Isuzu Ascender</item>
+        <item>Isuzu - Isuzu Axiom</item>
+        <item>Isuzu - Isuzu Gemini</item>
+        <item>Isuzu - Isuzu IMark</item>
+        <item>Isuzu - Isuzu Impulse</item>
+        <item>Isuzu - Isuzu Oasis</item>
+        <item>Isuzu - Isuzu Optima</item>
+        <item>Isuzu - Isuzu Reach</item>
+        <item>Isuzu - Isuzu Rodeo</item>
+        <item>Isuzu - Isuzu Stylus</item>
+        <item>Isuzu - Isuzu Trooper/Trooper II</item>
+        <item>Isuzu - Isuzu Truck (Big)</item>
+        <item>Isuzu - Isuzu Truck-(Mini Pickup)</item>
+        <item>Isuzu - Isuzu Truck-(Mini Pickup) Hombre</item>
+        <item>Isuzu - Isuzu Truck i280 (Pickup)</item>
+        <item>Isuzu - Isuzu Truck i290 (Pickup)</item>
+        <item>Isuzu - Isuzu Truck i350 (Pickup)</item>
+        <item>Isuzu - Isuzu Truck i370 (Pickup)</item>
+        <item>Isuzu - Isuzu Vehicross</item>
+        <item>Jaguar - Jaguar 120</item>
+        <item>Jaguar - Jaguar 140</item>
+        <item>Jaguar - Jaguar 150</item>
+        <item>Jaguar - Jaguar F Pace</item>
+        <item>Jaguar - Jaguar F Type</item>
+        <item>Jaguar - Jaguar Mark 10</item>
+        <item>Jaguar - Jaguar S Type</item>
+        <item>Jaguar - Jaguar Sedan</item>
+        <item>Jaguar - Jaguar Vanden Plas (1997 Down)</item>
+        <item>Jaguar - Jaguar Vanden Plas (1998 to 2007)</item>
+        <item>Jaguar - Jaguar Vanden Plas (2008 Up)</item>
+        <item>Jaguar - Jaguar X Type</item>
+        <item>Jaguar - Jaguar XE</item>
+        <item>Jaguar - Jaguar XF</item>
+        <item>Jaguar - Jaguar XJ Series (2008 Up)</item>
+        <item>Jaguar - Jaguar XJR (1993)</item>
+        <item>Jaguar - Jaguar XJR (1995 to 1997)</item>
+        <item>Jaguar - Jaguar XJR (1998 to 2007)</item>
+        <item>Jaguar - Jaguar XJR (2008 Up)</item>
+        <item>Jaguar - Jaguar XJS</item>
+        <item>Jaguar - Jaguar XJ6</item>
+        <item>Jaguar - Jaguar XJ8 (2008 Up)</item>
+        <item>Jaguar - Jaguar XJ8 (2007 Down)</item>
+        <item>Jaguar - Jaguar XJ12</item>
+        <item>Jaguar - Jaguar XK Series (2007 Up)</item>
+        <item>Jaguar - Jaguar XKE</item>
+        <item>Jaguar - Jaguar XKR (2006 Down)</item>
+        <item>Jaguar - Jaguar XKR (2007 Up)</item>
+        <item>Jaguar - Jaguar XK8</item>
+        <item>Jeep - Jeep Cherokee (except Grand Cherokee)</item>
+        <item>Jeep - Jeep CJSeries</item>
+        <item>Jeep - Jeep Comanche</item>
+        <item>Jeep - Jeep Commander</item>
+        <item>Jeep - Jeep Compass</item>
+        <item>Jeep - Jeep DJ Series</item>
+        <item>Jeep - Jeep FC Series</item>
+        <item>Jeep - Jeep Grand Cherokee</item>
+        <item>Jeep - Jeep Grand Wagoneer</item>
+        <item>Jeep - Jeep J-Series</item>
+        <item>Jeep - Jeep Jeepster</item>
+        <item>Jeep - Jeep Liberty</item>
+        <item>Jeep - Jeep Patriot</item>
+        <item>Jeep - Jeep Renegade</item>
+        <item>Jeep - Jeep Station Wagon</item>
+        <item>Jeep - Jeep Truck</item>
+        <item>Jeep - Jeep Wagoneer (except Grand Wagoneer)</item>
+        <item>Jeep - Jeep Wrangler</item>
+        <item>Kaiser - Kaiser</item>
+        <item>Kenworth - Kenworth</item>
+        <item>Kia - Kia Amanti</item>
+        <item>Kia - Kia Besta</item>
+        <item>Kia - Kia Borrego</item>
+        <item>Kia - Kia Cadenza</item>
+        <item>Kia - Kia Forte</item>
+        <item>Kia - Kia K900</item>
+        <item>Kia - Kia Magentis</item>
+        <item>Kia - Kia Optima</item>
+        <item>Kia - Kia Rio</item>
+        <item>Kia - Kia Rondo</item>
+        <item>Kia - Kia Sedona</item>
+        <item>Kia - Kia Sephia</item>
+        <item>Kia - Kia Sorento</item>
+        <item>Kia - Kia Soul</item>
+        <item>Kia - Kia Spectra</item>
+        <item>Kia - Kia Sportage</item>
+        <item>Lada - Lada</item>
+        <item>Lamborghini - Lamborghini</item>
+        <item>Lancia - Lancia</item>
+        <item>LandRover - LandRover Defender Discovery</item>
+        <item>LandRover - LandRover Discovery Sport</item>
+        <item>LandRover - LandRover Freelander</item>
+        <item>LandRover - LandRover LR2</item>
+        <item>LandRover - LandRover LR3</item>
+        <item>LandRover - LandRover LR4</item>
+        <item>LandRover - LandRover Range Rover</item>
+        <item>LandRover - LandRover Range Rover Evoque</item>
+        <item>LandRover - LandRover Range Rover Sport</item>
+        <item>LandRover - LandRover Other</item>
+        <item>Lexus - Lexus 250ES</item>
+        <item>Lexus - Lexus CT 200H</item>
+        <item>Lexus - Lexus ES300</item>
+        <item>Lexus - Lexus ES300H</item>
+        <item>Lexus - Lexus ES330</item>
+        <item>Lexus - Lexus ES350</item>
+        <item>Lexus - Lexus GS200t</item>
+        <item>Lexus - Lexus GS300</item>
+        <item>Lexus - Lexus GS350</item>
+        <item>Lexus - Lexus GS400</item>
+        <item>Lexus - Lexus GS430</item>
+        <item>Lexus - Lexus GS450</item>
+        <item>Lexus - Lexus GS460</item>
+        <item>Lexus - Lexus GS F</item>
+        <item>Lexus - Lexus GX460</item>
+        <item>Lexus - Lexus GX470</item>
+        <item>Lexus - Lexus HS250H</item>
+        <item>Lexus - Lexus IS200t</item>
+        <item>Lexus - Lexus IS250</item>
+        <item>Lexus - Lexus IS300</item>
+        <item>Lexus - Lexus IS350</item>
+        <item>Lexus - Lexus IS F</item>
+        <item>Lexus - Lexus LFA</item>
+        <item>Lexus - Lexus LS400</item>
+        <item>Lexus - Lexus LS430</item>
+        <item>Lexus - Lexus LS460</item>
+        <item>Lexus - Lexus LS600HL</item>
+        <item>Lexus - Lexus LX450</item>
+        <item>Lexus - Lexus LX470</item>
+        <item>Lexus - Lexus LX570</item>
+        <item>Lexus - Lexus NX200t</item>
+        <item>Lexus - Lexus NX300h</item>
+        <item>Lexus - Lexus RC 200t</item>
+        <item>Lexus - Lexus RC 300</item>
+        <item>Lexus - Lexus RC 350</item>
+        <item>Lexus - Lexus RC F</item>
+        <item>Lexus - Lexus RX300</item>
+        <item>Lexus - Lexus RX330</item>
+        <item>Lexus - Lexus RX350</item>
+        <item>Lexus - Lexus RX400 Hybrid)</item>
+        <item>Lexus - Lexus RX450 Hybrid)</item>
+        <item>Lexus - Lexus SC (excl 430)</item>
+        <item>Lexus - Lexus SC430</item>
+        <item>Lincoln - Lincoln Aviator</item>
+        <item>Lincoln - Lincoln Blackwood</item>
+        <item>Lincoln - Lincoln Continental</item>
+        <item>Lincoln - Lincoln LS</item>
+        <item>Lincoln - Lincoln Mark LT</item>
+        <item>Lincoln - Lincoln Mark Series</item>
+        <item>Lincoln - Lincoln MKC</item>
+        <item>Lincoln - Lincoln MKS</item>
+        <item>Lincoln - Lincoln MKT</item>
+        <item>Lincoln - Lincoln MKX</item>
+        <item>Lincoln - Lincoln MKZ</item>
+        <item>Lincoln - Lincoln Navigator</item>
+        <item>Lincoln - Lincoln Versailles</item>
+        <item>Lincoln - Lincoln Zephyr</item>
+        <item>Lincoln - Lincoln Other (includes Town Car)</item>
+        <item>Lotus - Lotus</item>
+        <item>MG - MG MGB</item>
+        <item>MG - MG Midget</item>
+        <item>MG - MG Other</item>
+        <item>Mac - Mac</item>
+        <item>Marmon - Marmon Truck</item>
+        <item>Maserati - Maserati</item>
+        <item>Maserati - Maserati BiTurbo</item>
+        <item>Maserati - Maserati Ghibli</item>
+        <item>Maybach - Maybach</item>
+        <item>Mazda - Mazda 2</item>
+        <item>Mazda - Mazda 3</item>
+        <item>Mazda - Mazda 5</item>
+        <item>Mazda - Mazda 6</item>
+        <item>Mazda - Mazda 323</item>
+        <item>Mazda - Mazda 626</item>
+        <item>Mazda - Mazda 808</item>
+        <item>Mazda - Mazda 929</item>
+        <item>Mazda - Mazda 1200</item>
+        <item>Mazda - Mazda 1800</item>
+        <item>Mazda - Mazda Cosmo</item>
+        <item>Mazda - Mazda CX3</item>
+        <item>Mazda - Mazda CX5</item>
+        <item>Mazda - Mazda CX7</item>
+        <item>Mazda - Mazda CX9</item>
+        <item>Mazda - Mazda GLC</item>
+        <item>Mazda - Mazda MPV Van</item>
+        <item>Mazda - Mazda MX3</item>
+        <item>Mazda - Mazda MX6</item>
+        <item>Mazda - Mazda Miata MX5</item>
+        <item>Mazda - Mazda Millenia</item>
+        <item>Mazda - Mazda Navajo</item>
+        <item>Mazda - Mazda Pickup-B1600</item>
+        <item>Mazda - Mazda Pickup-B1800</item>
+        <item>Mazda - Mazda Pickup-B2000</item>
+        <item>Mazda - Mazda Pickup-B2200</item>
+        <item>Mazda - Mazda Pickup-B2300</item>
+        <item>Mazda - Mazda Pickup-B2500</item>
+        <item>Mazda - Mazda Pickup-B2600</item>
+        <item>Mazda - Mazda Pickup-B3000</item>
+        <item>Mazda - Mazda Pickup-B4000</item>
+        <item>Mazda - Mazda Pickup-Rotary</item>
+        <item>Mazda - Mazda Protege</item>
+        <item>Mazda - Mazda RX2</item>
+        <item>Mazda - Mazda RX3</item>
+        <item>Mazda - Mazda RX4</item>
+        <item>Mazda - Mazda RX7</item>
+        <item>Mazda - Mazda RX8</item>
+        <item>Mazda - Mazda Tribute</item>
+        <item>Mercedes - Mercedes 170</item>
+        <item>Mercedes - Mercedes 190</item>
+        <item>Mercedes - Mercedes 200</item>
+        <item>Mercedes - Mercedes 218</item>
+        <item>Mercedes - Mercedes 219</item>
+        <item>Mercedes - Mercedes 220</item>
+        <item>Mercedes - Mercedes 230-4 Cyl</item>
+        <item>Mercedes - Mercedes 230-6 Cyl</item>
+        <item>Mercedes - Mercedes 240D</item>
+        <item>Mercedes - Mercedes 250</item>
+        <item>Mercedes - Mercedes 260E</item>
+        <item>Mercedes - Mercedes 280</item>
+        <item>Mercedes - Mercedes 300D (includes CD/D/SD/TD)</item>
+        <item>Mercedes - Mercedes 300E</item>
+        <item>Mercedes - Mercedes 300SL</item>
+        <item>Mercedes - Mercedes 320</item>
+        <item>Mercedes - Mercedes 350</item>
+        <item>Mercedes - Mercedes 380</item>
+        <item>Mercedes - Mercedes 400</item>
+        <item>Mercedes - Mercedes 420</item>
+        <item>Mercedes - Mercedes 450</item>
+        <item>Mercedes - Mercedes 500</item>
+        <item>Mercedes - Mercedes 560</item>
+        <item>Mercedes - Mercedes 600</item>
+        <item>Mercedes - Mercedes B Class</item>
+        <item>Mercedes - Mercedes C Class</item>
+        <item>Mercedes - Mercedes CL Class</item>
+        <item>Mercedes - Mercedes CLA Class</item>
+        <item>Mercedes - Mercedes CLK</item>
+        <item>Mercedes - Mercedes CLS</item>
+        <item>Mercedes - Mercedes E Class</item>
+        <item>Mercedes - Mercedes G Class</item>
+        <item>Mercedes - Mercedes GL Class</item>
+        <item>Mercedes - Mercedes GT</item>
+        <item>Mercedes - Mercedes GLA Class</item>
+        <item>Mercedes - Mercedes GLC Class</item>
+        <item>Mercedes - Mercedes GLE Class</item>
+        <item>Mercedes - Mercedes GLK Class</item>
+        <item>Mercedes - Mercedes ML Series</item>
+        <item>Mercedes - Mercedes Metris</item>
+        <item>Mercedes - Mercedes R Class</item>
+        <item>Mercedes - Mercedes S Class</item>
+        <item>Mercedes - Mercedes SL Class</item>
+        <item>Mercedes - Mercedes SLK"</item>
+        <item>Mercedes - Mercedes SLR"</item>
+        <item>Mercedes - Mercedes SLS"</item>
+        <item>Mercedes - Mercedes Sprinter 2500</item>
+        <item>Mercedes - Mercedes Sprinter 3500</item>
+        <item>Mercedes - Mercedes Truck</item>
+        <item>Mercury - Mercury Bobcat</item>
+        <item>Mercury - Mercury Capri</item>
+        <item>Mercury - Mercury Comet</item>
+        <item>Mercury - Mercury Cougar</item>
+        <item>Mercury - Mercury Grand Marquis (1979 Down)</item>
+        <item>Mercury - Mercury Grand Marquis (1980 Up)</item>
+        <item>Mercury - Mercury LN7</item>
+        <item>Mercury - Mercury Lynx (except LN7)</item>
+        <item>Mercury - Mercury Marauder</item>
+        <item>Mercury - Mercury Mariner</item>
+        <item>Mercury - Mercury Marquis (not Grand)</item>
+        <item>Mercury - Mercury Merkur (includes XR4TI and Scorpio)</item>
+        <item>Mercury - Mercury Milan</item>
+        <item>Mercury - Mercury Monarch</item>
+        <item>Mercury - Mercury Montego</item>
+        <item>Mercury - Mercury Monterey</item>
+        <item>Mercury - Mercury Mountaineer</item>
+        <item>Mercury - Mercury Mystique</item>
+        <item>Mercury - Mercury Sable</item>
+        <item>Mercury - Mercury Topaz</item>
+        <item>Mercury - Mercury Tracer</item>
+        <item>Mercury - Mercury Villager</item>
+        <item>Mercury - Mercury Zephyr</item>
+        <item>Mercury - Mercury Other</item>
+        <item>Mini - Mini Cooper (BMW)</item>
+        <item>Mini - Mini Cooper Clubman (BMW)</item>
+        <item>Mini - Mini Cooper Countryman (BMW)</item>
+        <item>Mini - Mini Cooper Paceman (BMW)</item>
+        <item>Mitsubishi - Mitsubishi 3000</item>
+        <item>Mitsubishi - Mitsubishi Cordia</item>
+        <item>Mitsubishi - Mitsubishi Diamante</item>
+        <item>Mitsubishi - Mitsubishi Eclipse</item>
+        <item>Mitsubishi - Mitsubishi Endeavor</item>
+        <item>Mitsubishi - Mitsubishi Expo</item>
+        <item>Mitsubishi - Mitsubishi Fuso</item>
+        <item>Mitsubishi - Mitsubishi Galant</item>
+        <item>Mitsubishi - Mitsubishi i MiEV</item>
+        <item>Mitsubishi - Mitsubishi Lancer</item>
+        <item>Mitsubishi - Mitsubishi Minicab</item>
+        <item>Mitsubishi - Mitsubishi Mirage</item>
+        <item>Mitsubishi - Mitsubishi Montero</item>
+        <item>Mitsubishi - Mitsubishi Montero-Sport</item>
+        <item>Mitsubishi - Mitsubishi Outlander</item>
+        <item>Mitsubishi - Mitsubishi Pickup (See also Dodge D50)</item>
+        <item>Mitsubishi - Mitsubishi Precis</item>
+        <item>Mitsubishi - Mitsubishi Raider</item>
+        <item>Mitsubishi - Mitsubishi RVR</item>
+        <item>Mitsubishi - Mitsubishi Sigma</item>
+        <item>Mitsubishi - Mitsubishi Space Wagon</item>
+        <item>Mitsubishi - Mitsubishi Starion</item>
+        <item>Mitsubishi - Mitsubishi Tredia</item>
+        <item>Mitsubishi - Mitsubishi Van</item>
+        <item>Morris - Morris</item>
+        <item>Nash - Nash</item>
+        <item>Nissan - Nissan 1200</item>
+        <item>Nissan - Nissan 1600</item>
+        <item>Nissan - Nissan 200SX"</item>
+        <item>Nissan - Nissan 210</item>
+        <item>Nissan - Nissan 240SX</item>
+        <item>Nissan - Nissan 240Z</item>
+        <item>Nissan - Nissan 260Z</item>
+        <item>Nissan - Nissan 280-Z</item>
+        <item>Nissan - Nissan 280-ZX</item>
+        <item>Nissan - Nissan 300ZX</item>
+        <item>Nissan - Nissan 350Z</item>
+        <item>Nissan - Nissan 370Z</item>
+        <item>Nissan - Nissan 310</item>
+        <item>Nissan - Nissan 311</item>
+        <item>Nissan - Nissan 410</item>
+        <item>Nissan - Nissan 411</item>
+        <item>Nissan - Nissan 510</item>
+        <item>Nissan - Nissan 610</item>
+        <item>Nissan - Nissan 710</item>
+        <item>Nissan - Nissan 810</item>
+        <item>Nissan - Nissan Almera</item>
+        <item>Nissan - Nissan Altima</item>
+        <item>Nissan - Nissan Armada</item>
+        <item>Nissan - Nissan Axxess</item>
+        <item>Nissan - Nissan B210</item>
+        <item>Nissan - Nissan Cube</item>
+        <item>Nissan - Nissan F10</item>
+        <item>Nissan - Nissan Frontier</item>
+        <item>Nissan - Nissan GTR</item>
+        <item>Nissan - Nissan Juke</item>
+        <item>Nissan - Nissan Leaf</item>
+        <item>Nissan - Nissan Lucino</item>
+        <item>Nissan - Nissan Maxima (1981 Down)</item>
+        <item>Nissan - Nissan Maxima (1982 Up)</item>
+        <item>Nissan - Nissan Micra</item>
+        <item>Nissan - Nissan Murano</item>
+        <item>Nissan - Nissan NV 200</item>
+        <item>Nissan - Nissan NV 1500</item>
+        <item>Nissan - Nissan NV 2500</item>
+        <item>Nissan - Nissan NV 3500</item>
+        <item>Nissan - Nissan NX</item>
+        <item>Nissan - Nissan Pathfinder</item>
+        <item>Nissan - Nissan Patrol</item>
+        <item>Nissan - Nissan Platinan</item>
+        <item>Nissan - Nissan Pulsar</item>
+        <item>Nissan - Nissan Quest</item>
+        <item>Nissan - Nissan Rogue</item>
+        <item>Nissan - Nissan Sentra</item>
+        <item>Nissan - Nissan Stanza (Excl Van)</item>
+        <item>Nissan - Nissan Stanza Van</item>
+        <item>Nissan - Nissan Tida</item>
+        <item>Nissan - Nissan Truck</item>
+        <item>Nissan - Nissan Truck-Titan</item>
+        <item>Nissan - Nissan Truck-Titan XD</item>
+        <item>Nissan - Nissan Tsubame</item>
+        <item>Nissan - Nissan UD Series</item>
+        <item>Nissan - Nissan Van GC22</item>
+        <item>Nissan - Nissan Versa</item>
+        <item>Nissan - Nissan X Trail</item>
+        <item>Nissan - Nissan Xterra</item>
+        <item>Oldsmobile - Oldsmobile 88 (1979 Down)</item>
+        <item>Oldsmobile - Oldsmobile 88 (1980 Up)</item>
+        <item>Oldsmobile - Oldsmobile 98 (1979 Down)</item>
+        <item>Oldsmobile - Oldsmobile 98 (1980 Up)</item>
+        <item>Oldsmobile - Oldsmobile Achieva</item>
+        <item>Oldsmobile - Oldsmobile Alero</item>
+        <item>Oldsmobile - Oldsmobile Aurora</item>
+        <item>Oldsmobile - Oldsmobile Bravada</item>
+        <item>Oldsmobile - Oldsmobile Calais (1984 Down)</item>
+        <item>Oldsmobile - Oldsmobile Calais (1985 Up)</item>
+        <item>Oldsmobile - Oldsmobile Ciera</item>
+        <item>Oldsmobile - Oldsmobile Custom Cruiser (1979 Down)</item>
+        <item>Oldsmobile - Oldsmobile Custom Cruiser (1980 Up)</item>
+        <item>Oldsmobile - Oldsmobile Cutlass (1972 Down)</item>
+        <item>Oldsmobile - Oldsmobile Cutlass (1973 Up)</item>
+        <item>Oldsmobile - Oldsmobile F85</item>
+        <item>Oldsmobile - Oldsmobile Firenza</item>
+        <item>Oldsmobile - Oldsmobile Intrigue</item>
+        <item>Oldsmobile - Oldsmobile Omega</item>
+        <item>Oldsmobile - Oldsmobile Silhouette</item>
+        <item>Oldsmobile - Oldsmobile Starfire</item>
+        <item>Oldsmobile - Oldsmobile Supreme-Calais (1988 Up)</item>
+        <item>Oldsmobile - Oldsmobile Supreme-Cutlass (1988 Up)</item>
+        <item>Oldsmobile - Oldsmobile Supreme (1972 Down)</item>
+        <item>Oldsmobile - Oldsmobile Supreme (1973-1987)</item>
+        <item>Oldsmobile - Oldsmobile Toronado</item>
+        <item>Oldsmobile - Oldsmobile Other</item>
+        <item>Opel - Opel</item>
+        <item>Oshkosh - Oshkosh</item>
+        <item>Pace - Pace Arrow</item>
+        <item>Packard - Packard</item>
+        <item>Pantera - Pantera</item>
+        <item>Peterbilt - Peterbilt</item>
+        <item>Peugeot - Peugeot 304</item>
+        <item>Peugeot - Peugeot 403</item>
+        <item>Peugeot - Peugeot 404</item>
+        <item>Peugeot - Peugeot 405</item>
+        <item>Peugeot - Peugeot 504</item>
+        <item>Peugeot - Peugeot 505</item>
+        <item>Peugeot - Peugeot 604</item>
+        <item>Plymouth - Plymouth Acclaim</item>
+        <item>Plymouth - Plymouth Arrow-Car</item>
+        <item>Plymouth - Plymouth Arrow-Truck (See also Dodge D50)</item>
+        <item>Plymouth - Plymouth Barracuda</item>
+        <item>Plymouth - Plymouth Breeze</item>
+        <item>Plymouth - Plymouth Caravelle</item>
+        <item>Plymouth - Plymouth Champ</item>
+        <item>Plymouth - Plymouth Cricket</item>
+        <item>Plymouth - Plymouth Duster (1970-1976)</item>
+        <item>Plymouth - Plymouth Duster (1979-1980)</item>
+        <item>Plymouth - Plymouth Duster (1985-1987)</item>
+        <item>Plymouth - Plymouth Duster (1992-1994)</item>
+        <item>Plymouth - Plymouth Grand Fury (1979 Down)</item>
+        <item>Plymouth - Plymouth Grand Fury (1980 Up)</item>
+        <item>Plymouth - Plymouth Horizon</item>
+        <item>Plymouth - Plymouth Laser</item>
+        <item>Plymouth - Plymouth Neon</item>
+        <item>Plymouth - Plymouth Prowler</item>
+        <item>Plymouth - Plymouth Reliant</item>
+        <item>Plymouth - Plymouth Sapporo</item>
+        <item>Plymouth - Plymouth Scamp (1983 only)</item>
+        <item>Plymouth - Plymouth Scamp (except 1983)</item>
+        <item>Plymouth - Plymouth Sundance</item>
+        <item>Plymouth - Plymouth Trailduster</item>
+        <item>Plymouth - Plymouth Valiant</item>
+        <item>Plymouth - Plymouth Van 100</item>
+        <item>Plymouth - Plymouth Van 150</item>
+        <item>Plymouth - Plymouth Van 200</item>
+        <item>Plymouth - Plymouth Van 250</item>
+        <item>Plymouth - Plymouth Van 300</item>
+        <item>Plymouth - Plymouth Van 350</item>
+        <item>Plymouth - Plymouth Volare</item>
+        <item>Plymouth - Plymouth Voyager</item>
+        <item>Plymouth - Plymouth Other</item>
+        <item>Pontiac - Pontiac 1000</item>
+        <item>Pontiac - Pontiac 2000-P/J/Sunbird</item>
+        <item>Pontiac - Pontiac 6000</item>
+        <item>Pontiac - Pontiac Acadian</item>
+        <item>Pontiac - Pontiac Astre</item>
+        <item>Pontiac - Pontiac Aztek</item>
+        <item>Pontiac - Pontiac Bonneville (1979 Down)</item>
+        <item>Pontiac - Pontiac Bonneville (1980 Up)</item>
+        <item>Pontiac - Pontiac Catalina (1979 Down)</item>
+        <item>Pontiac - Pontiac Catalina (1980 Up)</item>
+        <item>Pontiac - Pontiac Fiero</item>
+        <item>Pontiac - Pontiac Firebird</item>
+        <item>Pontiac - Pontiac Firefly</item>
+        <item>Pontiac - Pontiac G3</item>
+        <item>Pontiac - Pontiac G4</item>
+        <item>Pontiac - Pontiac G5</item>
+        <item>Pontiac - Pontiac G6</item>
+        <item>Pontiac - Pontiac G8</item>
+        <item>Pontiac - Pontiac Grand AM</item>
+        <item>Pontiac - Pontiac Grand Prix</item>
+        <item>Pontiac - Pontiac GTO (New Style)</item>
+        <item>Pontiac - Pontiac GTO (Old Style)</item>
+        <item>Pontiac - Pontiac Lemans</item>
+        <item>Pontiac - Pontiac Matiz</item>
+        <item>Pontiac - Pontiac Montana</item>
+        <item>Pontiac - Pontiac Parisienne (1979 Down)</item>
+        <item>Pontiac - Pontiac Parisienne (1980 Up)</item>
+        <item>Pontiac - Pontiac Phoenix</item>
+        <item>Pontiac - Pontiac Pursuit</item>
+        <item>Pontiac - Pontiac Solstice</item>
+        <item>Pontiac - Pontiac Sunbird</item>
+        <item>Pontiac - Pontiac Sunburst</item>
+        <item>Pontiac - Pontiac Sunfire</item>
+        <item>Pontiac - Pontiac Sunrunner</item>
+        <item>Pontiac - Pontiac Tempest</item>
+        <item>Pontiac - Pontiac Torrent</item>
+        <item>Pontiac - Pontiac Trans Sport</item>
+        <item>Pontiac - Pontiac Van-Montana</item>
+        <item>Pontiac - Pontiac Ventura</item>
+        <item>Pontiac - Pontiac Vibe</item>
+        <item>Pontiac - Pontiac Wave</item>
+        <item>Pontiac - Pontiac Other</item>
+        <item>Porsche - Porsche 356</item>
+        <item>Porsche - Porsche 911/930</item>
+        <item>Porsche - Porsche 912/e</item>
+        <item>Porsche - Porsche 914</item>
+        <item>Porsche - Porsche 918</item>
+        <item>Porsche - Porsche 924</item>
+        <item>Porsche - Porsche 928</item>
+        <item>Porsche - Porsche 944</item>
+        <item>Porsche - Porsche 968</item>
+        <item>Porsche - Porsche Boxster</item>
+        <item>Porsche - Porsche Carrera-GT</item>
+        <item>Porsche - Porsche Cayenne</item>
+        <item>Porsche - Porsche Cayman S</item>
+        <item>Porsche - Porsche Macan</item>
+        <item>Porsche - Porsche Panamera</item>
+        <item>Renault - Renault 18I</item>
+        <item>Renault - Renault Alliance</item>
+        <item>Renault - Renault Clio</item>
+        <item>Renault - Renault Dauphine</item>
+        <item>Renault - Renault Encore</item>
+        <item>Renault - Renault Fuego</item>
+        <item>Renault - Renault Gordini</item>
+        <item>Renault - Renault Lecar/R5</item>
+        <item>Renault - Renault Medallion</item>
+        <item>Renault - Renault Megane</item>
+        <item>Renault - Renault R8</item>
+        <item>Renault - Renault R10</item>
+        <item>Renault - Renault R12</item>
+        <item>Renault - Renault R15</item>
+        <item>Renault - Renault R16</item>
+        <item>Renault - Renault R17</item>
+        <item>Renault - Renault R30</item>
+        <item>Renault - Renault Other</item>
+        <item>REO - REO</item>
+        <item>RollsRoyce - RollsRoyce</item>
+        <item>Rover - Rover 3 Litre</item>
+        <item>Rover - Rover 100</item>
+        <item>Rover - Rover 2000</item>
+        <item>Rover - Rover 3500</item>
+        <item>Rover - Rover 3500S</item>
+        <item>Saab - Saab 9-3 (1999 Up)</item>
+        <item>Saab - Saab 9-5 (1999 Up)</item>
+        <item>Saab - Saab 92x</item>
+        <item>Saab - Saab 93 (1960 Down)</item>
+        <item>Saab - Saab 94x</item>
+        <item>Saab - Saab 95 (1972 Down)</item>
+        <item>Saab - Saab 96</item>
+        <item>Saab - Saab 97x</item>
+        <item>Saab - Saab 99</item>
+        <item>Saab - Saab 900 (incl Turbo)</item>
+        <item>Saab - Saab 9000 (incl Turbo)</item>
+        <item>Saab - Saab Monte Carlo</item>
+        <item>Saab - Saab Sonett</item>
+        <item>Saab - Saab Sonett III</item>
+        <item>Saturn - Saturn Astra</item>
+        <item>Saturn - Saturn Aura</item>
+        <item>Saturn - Saturn EV1</item>
+        <item>Saturn - Saturn Ion</item>
+        <item>Saturn - Saturn L Series</item>
+        <item>Saturn - Saturn S Series</item>
+        <item>Saturn - Saturn Outlook</item>
+        <item>Saturn - Saturn Relay</item>
+        <item>Saturn - Saturn Sky</item>
+        <item>Saturn - Saturn Vue</item>
+        <item>Scion - Scion FRS</item>
+        <item>Scion - Scion iA</item>
+        <item>Scion - Scion iM</item>
+        <item>Scion - Scion iQ</item>
+        <item>Scion - Scion tC</item>
+        <item>Scion - Scion xA</item>
+        <item>Scion - Scion xB</item>
+        <item>Scion - Scion xD</item>
+        <item>Seat - Seat Cordova</item>
+        <item>Seat - Seat Ibiza</item>
+        <item>Seat - Seat Leon</item>
+        <item>Seat - Seat Toledo</item>
+        <item>Simca - Simca</item>
+        <item>Smart - Smart Fortwo</item>
+        <item>SterlingRover - SterlingRover</item>
+        <item>Studebaker - Studebaker</item>
+        <item>Subaru - Subaru Baja</item>
+        <item>Subaru - Subaru Brat</item>
+        <item>Subaru - Subaru BRZ</item>
+        <item>Subaru - Subaru Chaser</item>
+        <item>Subaru - Subaru Crosstrek</item>
+        <item>Subaru - Subaru Forester</item>
+        <item>Subaru - Subaru Impreza</item>
+        <item>Subaru - Subaru Justy</item>
+        <item>Subaru - Subaru Legacy</item>
+        <item>Subaru - Subaru Loyale</item>
+        <item>Subaru - Subaru Outback (Impreza)</item>
+        <item>Subaru - Subaru Outback (Legacy)</item>
+        <item>Subaru - Subaru Sambar</item>
+        <item>Subaru - Subaru Streega</item>
+        <item>Subaru - Subaru SVX</item>
+        <item>Subaru - Subaru Tribeca</item>
+        <item>Subaru - Subaru WRX (2014 Down)</item>
+        <item>Subaru - Subaru WRX (2015 Up)</item>
+        <item>Subaru - Subaru XT</item>
+        <item>Subaru - Subaru XV Crosstrek</item>
+        <item>Subaru - Subaru Other</item>
+        <item>Sunbeam - Sunbeam</item>
+        <item>Suzuki - Suzuki Aerio</item>
+        <item>Suzuki - Suzuki Carry</item>
+        <item>Suzuki - Suzuki Esteem</item>
+        <item>Suzuki - Suzuki Equator</item>
+        <item>Suzuki - Suzuki Forenza</item>
+        <item>Suzuki - Suzuki Forsa</item>
+        <item>Suzuki - Suzuki Kizashi</item>
+        <item>Suzuki - Suzuki Reno</item>
+        <item>Suzuki - Suzuki Samurai</item>
+        <item>Suzuki - Suzuki Sidekick</item>
+        <item>Suzuki - Suzuki SJ410</item>
+        <item>Suzuki - Suzuki Swift</item>
+        <item>Suzuki - Suzuki SX4</item>
+        <item>Suzuki - Suzuki Verona</item>
+        <item>Suzuki - Suzuki Vitara</item>
+        <item>Suzuki - Suzuki X90</item>
+        <item>Suzuki - Suzuki XL7</item>
+        <item>Tesla - Tesla Roadster</item>
+        <item>Tesla - Tesla S</item>
+        <item>Tesla - Tesla X</item>
+        <item>Thomas - Thomas Truck</item>
+        <item>Toyota - Toyota 4Runnen</item>
+        <item>Toyota - Toyota Aristo</item>
+        <item>Toyota - Toyota Avalon</item>
+        <item>Toyota - Toyota Camry</item>
+        <item>Toyota - Toyota Carina</item>
+        <item>Toyota - Toyota Celica</item>
+        <item>Toyota - Toyota Corolla not FX</item>
+        <item>Toyota - Toyota Corolla FX/FX16</item>
+        <item>Toyota - Toyota Corona MKII</item>
+        <item>Toyota - Toyota Corona not MKII</item>
+        <item>Toyota - Toyota Cressida</item>
+        <item>Toyota - Toyota Crown</item>
+        <item>Toyota - Toyota Echo</item>
+        <item>Toyota - Toyota FJ Cruiser</item>
+        <item>Toyota - Toyota FX/FX16</item>
+        <item>Toyota - Toyota HiAce</item>
+        <item>Toyota - Toyota Highlander</item>
+        <item>Toyota - Toyota Land Cruiser</item>
+        <item>Toyota - Toyota Matrix</item>
+        <item>Toyota - Toyota Mirai</item>
+        <item>Toyota - Toyota MR2</item>
+        <item>Toyota - Toyota Paseo</item>
+        <item>Toyota - Toyota Previa</item>
+        <item>Toyota - Toyota Prius</item>
+        <item>Toyota - Toyota RAV4</item>
+        <item>Toyota - Toyota Sequoia</item>
+        <item>Toyota - Toyota Sienna</item>
+        <item>Toyota - Toyota Solara</item>
+        <item>Toyota - Toyota Starlet</item>
+        <item>Toyota - Toyota Stout</item>
+        <item>Toyota - Toyota Supra</item>
+        <item>Toyota - Toyota T100</item>
+        <item>Toyota - Toyota Tacoma</item>
+        <item>Toyota - Toyota Tercel</item>
+        <item>Toyota - Toyota Truck (except T100 &amp; Tundra)</item>
+        <item>Toyota - Toyota Tundra</item>
+        <item>Toyota - Toyota Van (See also Previa)</item>
+        <item>Toyota - Toyota Venza</item>
+        <item>Toyota - Toyota Yaris</item>
+        <item>Triumph - Triumph GT6</item>
+        <item>Triumph - Triumph Spitfire</item>
+        <item>Triumph - Triumph Stag</item>
+        <item>Triumph - Triumph TR2</item>
+        <item>Triumph - Triumph TR3</item>
+        <item>Triumph - Triumph TR4</item>
+        <item>Triumph - Triumph TR4A</item>
+        <item>Triumph - Triumph TR6</item>
+        <item>Triumph - Triumph TR7</item>
+        <item>Triumph - Triumph TR8</item>
+        <item>Triumph - Triumph TR250</item>
+        <item>Utilimaster - Utilimaster Step Van</item>
+        <item>Volkswagen - Volkswagen 412/411</item>
+        <item>Volkswagen - Volkswagen Beetle/Bug</item>
+        <item>Volkswagen - Volkswagen Cabrio</item>
+        <item>Volkswagen - Volkswagen Cabriolet</item>
+        <item>Volkswagen - Volkswagen CC</item>
+        <item>Volkswagen - Volkswagen Corrado</item>
+        <item>Volkswagen - Volkswagen Dasher</item>
+        <item>Volkswagen - Volkswagen Derby"</item>
+        <item>Volkswagen - Volkswagen Eos</item>
+        <item>Volkswagen - Volkswagen Fox</item>
+        <item>Volkswagen - Volkswagen Golf</item>
+        <item>Volkswagen - Volkswagen Jetta</item>
+        <item>Volkswagen - Volkswagen Karmann Ghia</item>
+        <item>Volkswagen - Volkswagen Passat</item>
+        <item>Volkswagen - Volkswagen Phaeton</item>
+        <item>Volkswagen - Volkswagen Pointer</item>
+        <item>Volkswagen - Volkswagen Pointer Truck</item>
+        <item>Volkswagen - Volkswagen Quantum</item>
+        <item>Volkswagen - Volkswagen Rabbit</item>
+        <item>Volkswagen - Volkswagen Routan</item>
+        <item>Volkswagen - Volkswagen Scirocco</item>
+        <item>Volkswagen - Volkswagen Sedan</item>
+        <item>Volkswagen - Volkswagen Sharan</item>
+        <item>Volkswagen - Volkswagen Thing</item>
+        <item>Volkswagen - Volkswagen Tiguan</item>
+        <item>Volkswagen - Volkswagen Touareg</item>
+        <item>Volkswagen - Volkswagen Type 3</item>
+        <item>Volkswagen - Volkswagen Van-EuroVan</item>
+        <item>Volkswagen - Volkswagen Van-Transporter</item>
+        <item>Volkswagen - Volkswagen Van-Vanagon</item>
+        <item>Volkswagen - Volkswagen Other</item>
+        <item>Volvo - Volvo 30 Series</item>
+        <item>Volvo - Volvo 40 Series</item>
+        <item>Volvo - Volvo 50 Series</item>
+        <item>Volvo - Volvo 60 Series</item>
+        <item>Volvo - Volvo 70 Series</item>
+        <item>Volvo - Volvo 80 Series</item>
+        <item>Volvo - Volvo 90 Series</item>
+        <item>Volvo - Volvo 120 Series</item>
+        <item>Volvo - Volvo 140 Series</item>
+        <item>Volvo - Volvo 160 Series</item>
+        <item>Volvo - Volvo 240</item>
+        <item>Volvo - Volvo 260</item>
+        <item>Volvo - Volvo 444/445</item>
+        <item>Volvo - Volvo 544</item>
+        <item>Volvo - Volvo 740</item>
+        <item>Volvo - Volvo 760</item>
+        <item>Volvo - Volvo 780</item>
+        <item>Volvo - Volvo 850</item>
+        <item>Volvo - Volvo 940</item>
+        <item>Volvo - Volvo 960</item>
+        <item>Volvo - Volvo 180</item>
+        <item>Volvo - Volvo F7</item>
+        <item>Volvo - Volvo FE6</item>
+        <item>Volvo - Volvo S60</item>
+        <item>Volvo - Volvo Truck</item>
+        <item>Volvo - Volvo V60</item>
+        <item>Volvo - Volvo XC60</item>
+        <item>Volvo - Volvo XC90</item>
+        <item>VPG - VPG MV1</item>
+        <item>Western - Western Star</item>
+        <item>White - White</item>
+        <item>Willys - Willys</item>
+        <item>Winnebago - Winnebago</item>
+        <item>Yugo - Yugo</item>
+        <item>Toyota - Scion IA</item>
+    </string-array>
+    <string-array name="parte_array">
+        <item>Seleccione una Opcion</item>
+        <item>A/C Compresor Solo Clutch</item>
+        <item>Abanico de Calefacción/ Blower (Heater)</item>
+        <item>Abanico de Condensador/Radiador</item>
+        <item>Abanico del Condensador A/C</item>
+        <item>Abanico Enfriador (Montado de Radiador y Condensador)</item>
+        <item>Abanico Enfriador Montado de Radiador/Condensador</item>
+        <item>Absorbedor de Defensa (Delantera)</item>
+        <item>Absorbedor de Defensa (Trasera)</item>
+        <item>Actuador de Eje (4WD)</item>
+        <item>Actuador de Seguros</item>
+        <item>Adaptador de Transferencia</item>
+        <item>Adaptador del filtro de aceite</item>
+        <item>Aire acondicionado y calefacción ventilación</item>
+        <item>Alambrado de Tablero</item>
+        <item>Aleta de Puerta Trasera</item>
+        <item>Alfombra</item>
+        <item>Alternador</item>
+        <item>Amortiguador</item>
+        <item>Amortiguador Completo</item>
+        <item>Amortiguador de Defensa</item>
+        <item>Amplificador/Radio</item>
+        <item>Antena</item>
+        <item>Apuntalar de capucha</item>
+        <item>Arbol de Elevas</item>
+        <item>Aro de Rin</item>
+        <item>Aro Dentado (Flywheel)</item>
+        <item>Arrancador</item>
+        <item>Asamblea de Palanca de Velocidades de Piso</item>
+        <item>Asamblea Shifter (Planta)</item>
+        <item>Asiento Trasero (2do.)</item>
+        <item>Asiento Trasero (3ro.)</item>
+        <item>Asiento Trasero Cinturón</item>
+        <item>Asiento, Delantero</item>
+        <item>Aspa de Abanico</item>
+        <item>Audiovisual</item>
+        <item>Balance Delantero</item>
+        <item>Balance Inferior Trasero</item>
+        <item>Balance,Tras.</item>
+        <item>Banda del Tiempo/Cadena</item>
+        <item>Barillaje de Limpiadores/ Wipers</item>
+        <item>Barra de Torsion</item>
+        <item>Barra Estabilizadora</item>
+        <item>Base Batería</item>
+        <item>Base de Asiento Delantero</item>
+        <item>Base de Cinturón de Seguridad (Electrico)</item>
+        <item>Base de Placa, Del.</item>
+        <item>Base de Placa, Tras.</item>
+        <item>Bastidor</item>
+        <item>Batería</item>
+        <item>Bicel de tablero</item>
+        <item>Biela de Piston</item>
+        <item>Bloque de Motor</item>
+        <item>Bocina</item>
+        <item>Bola de Diferencial w.Housing (Ver Tambien Diferencial)</item>
+        <item>Bolsa de Aire</item>
+        <item>Bolsa de Aire Modulo/Computadora</item>
+        <item>Bomba de Aceite, Motor</item>
+        <item>Bomba de Agua</item>
+        <item>Bomba de Aire</item>
+        <item>Bomba de Antibloqueo</item>
+        <item>Bomba de Aspersion P/Parabrisas</item>
+        <item>Bomba de Dirección Hidráulica</item>
+        <item>Bomba de Fuel Inyección</item>
+        <item>Bomba de Gasolina</item>
+        <item>Bomba de Refrigerante</item>
+        <item>Bomba de Smog</item>
+        <item>Bomba de Vacio</item>
+        <item>Bomba del líquido de escape</item>
+        <item>Booster de Bomba de Frenos</item>
+        <item>Bota de Techo de Convertible</item>
+        <item>Brazo de Amortiguador</item>
+        <item>Brazo de Estribo</item>
+        <item>Brazo de Sin Fin</item>
+        <item>Brazo de Suspensión Trasera</item>
+        <item>Brazo Limpiador</item>
+        <item>Brazo Pitman</item>
+        <item>Brazo Radial, Del.</item>
+        <item>Cabeza de Cilindrada</item>
+        <item>Cabeza de Cilindrada de Motor</item>
+        <item>Cabeza(Cilindro)</item>
+        <item>Cabezera</item>
+        <item>Cabina</item>
+        <item>Caja de Diferencial</item>
+        <item>Caja de Fusibles (Cabina)</item>
+        <item>Caja de Fusibles (Motor)</item>
+        <item>Caja de Fusibles de Cabina</item>
+        <item>Caja de Fusibles del Motor</item>
+        <item>Caja de Pickup</item>
+        <item>Cajuela</item>
+        <item>Cajuela/Tapa Motor de Cierre</item>
+        <item>Calefaccion Conjunto/Ensamble</item>
+        <item>Calefaccion Motor</item>
+        <item>Camara/Proyector</item>
+        <item>Cambio de la Transferencia</item>
+        <item>Cambio de la Transmisión</item>
+        <item>Cambio del Motor</item>
+        <item>Cambio del Turbo/Supercargador</item>
+        <item>Camioneta tapa/Camioneta caravana concha</item>
+        <item>Campana de Transmisión</item>
+        <item>Canastilla en el Techo</item>
+        <item>Candado de 4x4</item>
+        <item>Canister de Vapor</item>
+        <item>Caparazon de Diferencial</item>
+        <item>Carburador (Ver Tambien TBI)</item>
+        <item>Carter de Motor</item>
+        <item>Carter de Piso</item>
+        <item>Carter de Transmisión</item>
+        <item>CD Jugador/Radio</item>
+        <item>Celdas de Gasolina</item>
+        <item>Cenicero</item>
+        <item>Centro de Rin (Copita)</item>
+        <item>Chasis</item>
+        <item>Chasis Superior &amp; Rieles Inferiores</item>
+        <item>Cigüeñal</item>
+        <item>Cilindro Esclavo</item>
+        <item>Cilindro Maestro</item>
+        <item>Cinturón de seguridad delantero</item>
+        <item>Cinturón del asiento trasero</item>
+        <item>Clutch de Abanico</item>
+        <item>Codera</item>
+        <item>Cofre</item>
+        <item>Coil/Ignición</item>
+        <item>Columna de Dirección</item>
+        <item>Compacto de Guardafango</item>
+        <item>Compresor de A/C</item>
+        <item>Compresor de Aire</item>
+        <item>Computadora (y No Motor)</item>
+        <item>Computadora de A/C</item>
+        <item>Computadora de Chasis (y no Motor)</item>
+        <item>Computadora de Cruise Control</item>
+        <item>Computadora de Motor</item>
+        <item>Computadora de Transmisión</item>
+        <item>Computadora del Sistema de Anti Bloqueo</item>
+        <item>Condensador</item>
+        <item>Condensador de A/C</item>
+        <item>Consola Frente</item>
+        <item>Consola Trasera</item>
+        <item>Consola, Frontal</item>
+        <item>Consola, Trasera</item>
+        <item>Control de A/C</item>
+        <item>Control de Velocidad</item>
+        <item>Convertidor Torque</item>
+        <item>Convertidor Torque de Transmisión</item>
+        <item>Copa (mostra con imagenes)</item>
+        <item>Copa (mostra sin imagenes)</item>
+        <item>Copa/Tapon (mostra con imagenes)</item>
+        <item>Copa/Tapon (mostra sin imagenes)</item>
+        <item>Coraza</item>
+        <item>Corneta</item>
+        <item>Corneta de Chasis</item>
+        <item>Cortina de la ventana</item>
+        <item>Costado</item>
+        <item>Costado de Caja de Pickup</item>
+        <item>Costado de Reparación</item>
+        <item>Coupling de Dirección</item>
+        <item>Cuadro de Instrumentos/Interior/Interruptor de Asiento</item>
+        <item>Cuarto/Luz de Niebla Delanterq</item>
+        <item>Cubierta de Carga/Sombra</item>
+        <item>Cubierta de Motor</item>
+        <item>Cubierta de Tablero</item>
+        <item>Cubierta de Valvulas</item>
+        <item>Cubierta del Radiador</item>
+        <item>Cubierta tonneau</item>
+        <item>Cucharada de la capilla</item>
+        <item>De piñón y cremallera (dirección)</item>
+        <item>Defensa Completa (Delantera) incluye Cubierta</item>
+        <item>Defensa Completa (Trasera) incluye Cubierta</item>
+        <item>Defensa Delantera Completa (incluye cubierta)</item>
+        <item>Defensa Delantera Cubierta</item>
+        <item>Defensa Delantera Fascia</item>
+        <item>Defensa Delantera Refuerzo</item>
+        <item>Defensa Delantera Tope</item>
+        <item>Defensa Fascia (Delantera)</item>
+        <item>Defensa Fascia (Trasera)</item>
+        <item>Defensa Trasera Completa (incluye cubierta)</item>
+        <item>Defensa Trasera Fascia</item>
+        <item>Defensa Trasero Cubierta</item>
+        <item>Dentro manija de la puerta</item>
+        <item>Deposito de Agua de Radiador</item>
+        <item>Depósito de líquido de escape</item>
+        <item>Desempanador Vidrio Trasero</item>
+        <item>Diferencial Completo</item>
+        <item>Diferencial Completo Tras. (w. Housing)</item>
+        <item>Diferencial Delantero Completo (4WD w. Housing)</item>
+        <item>Diferencial Trasero Completo (RWD)</item>
+        <item>Diplay de Estado</item>
+        <item>Direccion Hidraulica Cilindro de Presion</item>
+        <item>Direccion Hidraulica Deposito</item>
+        <item>Direccion Hidraulica Enfriador</item>
+        <item>Direccion Hidraulica Sistema Completo</item>
+        <item>Disco de Clutch</item>
+        <item>Distribuidor</item>
+        <item>Distribuidor de Gasolina</item>
+        <item>Eje Flotante Delantero (2WD)</item>
+        <item>Eje Flotante Trasero (FWD)</item>
+        <item>Ejes de Diferencial</item>
+        <item>Ejes de Diferencial Delantero</item>
+        <item>Elevador de Aleta de Puerta Delantera</item>
+        <item>Elevador de Aleta de Puerta Trasera</item>
+        <item>Elevador de Cubierta Convertible</item>
+        <item>Elevador de Vidrio de Costado</item>
+        <item>Elevador de Vidrio de Tapa</item>
+        <item>Elevador de Vidrio Pta. Trasera</item>
+        <item>mblema</item>
+        <item>Enfriador de Aceite</item>
+        <item>Enfriador de Transmisión Automática</item>
+        <item>Engranes de Tiempo</item>
+        <item>Entubado</item>
+        <item>Escape Conjunto/Ensamble</item>
+        <item>Escape Pipa</item>
+        <item>Escape Pipa Cruzada</item>
+        <item>Escape Pipa Delantera</item>
+        <item>Escape Resonador</item>
+        <item>Espejo de Puerta Delantera</item>
+        <item>Espejo Ensamble</item>
+        <item>Espejo Retrovisor</item>
+        <item>Espiga</item>
+        <item>Espiga de Dirección</item>
+        <item>Espiga Trasera/Eje Trasero Tocón</item>
+        <item>Estribo (Ver Tambien Poste de Cabina)</item>
+        <item>Estribos/ Running Boards</item>
+        <item>Evaporador de A/C</item>
+        <item>Extensión de Costado</item>
+        <item>Extensión de Guardafango</item>
+        <item>Filler-Vista de Defensa</item>
+        <item>Flecha Delantera</item>
+        <item>Flecha Trasera</item>
+        <item>Foco Delantero</item>
+        <item>Foco Delantero Motor</item>
+        <item>Foco Delantero Tapa/Bisel</item>
+        <item>Frenado de Emergencia</item>
+        <item>Frenos, Delanteros (Disco/Tambor)</item>
+        <item>Frenos,Traseros (Disco, Tambor)</item>
+        <item>Frenos/Pedal de Clutch</item>
+        <item>Frente Completo</item>
+        <item>Fusible (Misc)</item>
+        <item>Gancho de Resorte</item>
+        <item>Generador</item>
+        <item>GPS/ Pantalla de TV/ Centro de Informacion</item>
+        <item>Guantera</item>
+        <item>Guardafango</item>
+        <item>Harness de Alambrado/ Partes Varias Eléctricas</item>
+        <item>Hoja Muelle Delantera</item>
+        <item>Hoja Muelle Trasero</item>
+        <item>Housing de Campana</item>
+        <item>Housing de Evaporador de A/C</item>
+        <item>Housing de Termostato</item>
+        <item>Housing de Transmisión Solamente</item>
+        <item>Housing del Arbol de Elevas</item>
+        <item>Ignitor/Coil</item>
+        <item>Indicador de Cambios</item>
+        <item>Injector de Gasolina (&amp; Injeccion Misc.)</item>
+        <item>Intercooler</item>
+        <item>Interior Completo"</item>
+        <item>Interior Panel de la Puerta</item>
+        <item>Interior Vestidura de Costado</item>
+        <item>Interruptor de la puerta trasera</item>
+        <item>Interruptor del asiento</item>
+        <item>Interruptor, luz principal (Dash)</item>
+        <item>Interruptor, luz principal (ver interruptor de la columna)</item>
+        <item>Invertidor de Energia (Hibrido)</item>
+        <item>Jalon (Hitch)</item>
+        <item>La Línea de Combustible</item>
+        <item>Linea de A/C</item>
+        <item>Llanta</item>
+        <item>Llave de Remoto</item>
+        <item>Llaves/Chapas/Seguros</item>
+        <item>Luz de Niebla</item>
+        <item>Luz de Placa</item>
+        <item>Luz de Reversa</item>
+        <item>Luz Direccional/Luz de Niebla</item>
+        <item>Luz interior</item>
+        <item>Luz Reflejante Trasera (Lateral)</item>
+        <item>Luz Tercera de Freno</item>
+        <item>Luz Trasera</item>
+        <item>Maestro Cilindro del Clutch</item>
+        <item>Manejo- Por- Cable</item>
+        <item>Manguera de Presion de Bomba de Direccion (Power)</item>
+        <item>Maniful de Admisión</item>
+        <item>Maniful de Escape</item>
+        <item>Manija de la puerta del frente, en el interior</item>
+        <item>Manija de la puerta trasera, interior</item>
+        <item>Manija de Puerta/Tapa Trasera</item>
+        <item>Manivela de Vidrio de Puerta</item>
+        <item>Manual de Usuario</item>
+        <item>Marcador de Luz de Niebla Delantero</item>
+        <item>Marcador de Luz de Niebla Trasero</item>
+        <item>Medidor (Misc)</item>
+        <item>Medidor de Gasolina</item>
+        <item>Medidor de Intensidad de Luz</item>
+        <item>Medidor de Tanque de Gasolina</item>
+        <item>Misc Molduras</item>
+        <item>Módulo de Ignición</item>
+        <item>Mofle de Escape</item>
+        <item>Moldura de Costado</item>
+        <item>Moldura de Guardafango</item>
+        <item>Moldura de Poste</item>
+        <item>Moldura de Puerta Delantera</item>
+        <item>Moldura de Puerta/Tapa Trasera</item>
+        <item>Moldura Parabrisas</item>
+        <item>Montaje de Gato</item>
+        <item>Motor</item>
+        <item>Motor de Asiento</item>
+        <item>Motor de Cinturón de Seguridad</item>
+        <item>Motor de Cubierta Convertible</item>
+        <item>Motor de elevación de la puerta trasera</item>
+        <item>Motor de Inyector de Limpiador de Faros</item>
+        <item>Motor de Limpiabrisas Trasero</item>
+        <item>Motor de Limpiador de Faros</item>
+        <item>Motor de Limpiador de Vidrio Trasero</item>
+        <item>Motor de Puerta Electrica (no de Vidrio)</item>
+        <item>Motor de Quemacocos</item>
+        <item>Motor de Vidrio</item>
+        <item>Motor de Vidrio de Puerta Delantera</item>
+        <item>Motor de Vidrio de Puerta Trasera</item>
+        <item>Motor de Vidrio eléctrico</item>
+        <item>Motor del Vidrio de Costado</item>
+        <item>Motor Electrico de Transferencia</item>
+        <item>Motor Limpiador de Parabrisas</item>
+        <item>Motor Limpiador de Vidrio, Trasero</item>
+        <item>Ornamento de la capilla</item>
+        <item>Orquilla Delantera Inferior</item>
+        <item>Orquilla Inferior Trasera</item>
+        <item>Orquilla Superior Delantera</item>
+        <item>Orquilla Superior Trasera</item>
+        <item>Panal Frontal de Caja de Pickup</item>
+        <item>Panel de Techo (Ver Tambien Quemacocos)</item>
+        <item>Panel Frontal de Caja de Pickup</item>
+        <item>Panel Trasero</item>
+        <item>Panel Trasero de Carroceria</item>
+        <item>Parabrisas</item>
+        <item>Parabrisas Deposito de Limpiadores</item>
+        <item>Parabrisas Marco</item>
+        <item>Parrilla</item>
+        <item>Parrilla de Aire del Radiador</item>
+        <item>Partes de Acelerador</item>
+        <item>Partes Electricas y Alambrado Diversos</item>
+        <item>Pedales de Frenos</item>
+        <item>Pilar/Poste</item>
+        <item>Pilar/Poste Central</item>
+        <item>Pipa de Escape</item>
+        <item>Piston</item>
+        <item>Pizo de Caja de Pickup</item>
+        <item>Plato de Presion</item>
+        <item>Polea de Cigüeñal</item>
+        <item>Portador de Llanta de Auxilio</item>
+        <item>Portaequipajes</item>
+        <item>Prensa</item>
+        <item>Protector de Caja/ Bed Liner</item>
+        <item>Protector de Calor de Escape</item>
+        <item>Puente de Motor</item>
+        <item>Puente de Suspensión Trasero</item>
+        <item>Puerta Delantera</item>
+        <item>Puerta Delantera Bisagra</item>
+        <item>Puerta Delantera Manija, Afuera</item>
+        <item>Puerta por Encima de Defensa Trasera</item>
+        <item>Puerta Trasera (costado del vehiculo)</item>
+        <item>Puerta Trasera Manija, Afuera</item>
+        <item>Puerta Trasera Moldura</item>
+        <item>Puerta Trasera Visagra</item>
+        <item>Puerta/Tapa</item>
+        <item>Puerta/Tapa Trasera</item>
+        <item>Punta de Direccion/Cremallera</item>
+        <item>Punta de Eje</item>
+        <item>Purificador de Aire/ Caja de Aire</item>
+        <item>Quemacocos</item>
+        <item>Radiador</item>
+        <item>Radiador de Calefacción</item>
+        <item>Radio/CD</item>
+        <item>Rag Joint (véase también Coupling de Dirección)</item>
+        <item>Refuerzo de Defensa Trasera</item>
+        <item>Regulador de Voltaje</item>
+        <item>Regulador del Cruise Control</item>
+        <item>Reja de Parabrisa</item>
+        <item>Rejilla de Aire</item>
+        <item>Reloj</item>
+        <item>Reloj de Muelle (Bolsa de Aire)</item>
+        <item>Resorte de Suspensión/Resorte de Aire</item>
+        <item>Riel de Gasolina (&amp; Injeccion Misc.)</item>
+        <item>Rin/ Wheel (mostra con imagenes)</item>
+        <item>Rin/ Wheel (mostra sin imagenes)</item>
+        <item>Sapo de Freno</item>
+        <item>Seccion de Chasis Delantero</item>
+        <item>Sensor (Carroceria,Misc)</item>
+        <item>Sensor (Chasis,Misc)</item>
+        <item>Sensor (Drivetrain,Misc)</item>
+        <item>Sensor de Flujo de Aire</item>
+        <item>Separador de Agua</item>
+        <item>Sin fin/ Caja de Dirección/ Cremallera</item>
+        <item>Solamente Anillo y Piñon</item>
+        <item>Solamente de Caso Diferencial</item>
+        <item>Solamente de Reborde Diferencial</item>
+        <item>Solamente la Cabina, Ningún Túnel</item>
+        <item>Soportes de Motor</item>
+        <item>Spoiler, Delantero</item>
+        <item>Spoiler, Trasero</item>
+        <item>Suspensión Completa (der. Izq.)</item>
+        <item>Suspensión de Eje Flotante Delantera 2WD</item>
+        <item>Suspensión Trasera (Ver Tambien Orquillas)</item>
+        <item>Switch de Columna</item>
+        <item>Switch de Ignición</item>
+        <item>Switch de Puerta Delantera</item>
+        <item>Switch de Transfer</item>
+        <item>Tablero</item>
+        <item>Tablero Instrumental/ Marcadores</item>
+        <item>Tacometro</item>
+        <item>Tanque de Gasolina</item>
+        <item>Tapa de Gasolina</item>
+        <item>Tapa de Tiempo</item>
+        <item>Tapa del tronco</item>
+        <item>Tapa Trasera/Cajuela</item>
+        <item>Tapa Trasera/Cajuela/Puerta Trasera</item>
+        <item>Tapetes</item>
+        <item>Tapicería de Bocinas Trasero</item>
+        <item>Tapicería de Puerta Trasera</item>
+        <item>Tapicería de Puerta/Tapa Trasera</item>
+        <item>Tapon de Gasolina</item>
+        <item>TBI (Sistema de Inyeción Electrónica)</item>
+        <item>Techo</item>
+        <item>Techo de Cabina Interior</item>
+        <item>Tensor de Banda</item>
+        <item>Tirador de la puerta exterior</item>
+        <item>Tirador de la puerta interior</item>
+        <item>Tirante Suspensión Trasera</item>
+        <item>Tolva de Guardafango</item>
+        <item>Tolva del Radiador</item>
+        <item>Tope de Defensa Trasera</item>
+        <item>Transferencia</item>
+        <item>Transmisión</item>
+        <item>Transmisión Bomba Frontal</item>
+        <item>Transmisión Puente</item>
+        <item>Trasero Completo</item>
+        <item>Tubo de Aire/Resonador</item>
+        <item>Tubo Llenador de Gasolina</item>
+        <item>Turbocharger/Supercargador</item>
+        <item>Turbocharger/Supercharger</item>
+        <item>Unidad de OD de Transmisión (Ver Tambien Trans.)</item>
+        <item>Unidad de Overdrive (Ver Tambien Transmisión)</item>
+        <item>Unilado</item>
+        <item>Vacio del Tanque de Almacenamiento</item>
+        <item>Valvula de Bomba de Power</item>
+        <item>Valvula de Frenado Proporcional</item>
+        <item>Valvula EGR</item>
+        <item>Varilla Direccion</item>
+        <item>Velocimetro (Ver tmb. Tablero Instrumental)</item>
+        <item>Ventana Interruptor (Puerta principal)</item>
+        <item>Ventana Interruptor (Puerta trasera)</item>
+        <item>Ventila de Reja de Parabrisa</item>
+        <item>Vestidura (Costado)</item>
+        <item>Vestidura (Puerta Del.)</item>
+        <item>Vestidura (Puerta Posterior)</item>
+        <item>Vestidura (Puerta Trasera)</item>
+        <item>Vestidura (Tapa/Cajuela)</item>
+        <item>Vestidura de Cajuela</item>
+        <item>Vestidura de Tapa Trasera</item>
+        <item>Vidrio de Aleta Delantera</item>
+        <item>Vidrio de Aleta Trasera</item>
+        <item>Vidrio de Costado</item>
+        <item>Vidrio de Puerta Delantera</item>
+        <item>Vidrio de Puerta Trasera</item>
+        <item>Vidrio Elevador de Puerta Delantera</item>
+        <item>Vidrio Especial (Ver Tambien Quemacocos)</item>
+        <item>Vidrio Parabrisas</item>
+        <item>Vidrio Puerta Delantera</item>
+        <item>Vidrio Puerta Trasera</item>
+        <item>Vidrio Puerta/Tapa Trasera</item>
+        <item>Vidrio Respiradero de Puerta Delantera</item>
+        <item>Vidrio Trasero</item>
+        <item>Vidrio Trasero ( No en Puerta)</item>
+        <item>Vidrios Especiales</item>
+        <item>Visagra de Cajuela</item>
+        <item>Visagra de Cofre</item>
+        <item>Visagra de Puerta/Tapa Trasera</item>
+        <item>Visagra de Tapa Trasera</item>
+        <item>Viseras</item>
+        <item>Volante</item>
+        <item>Volver manija de la puerta, el interior</item>
+        <item>Yugo de Eje</item>
+        <item>Yugo Deslizante/Junta Universal</item>
+        <item>Zapato de Frenado/Balatas</item>
+    </string-array>
 </resources>
