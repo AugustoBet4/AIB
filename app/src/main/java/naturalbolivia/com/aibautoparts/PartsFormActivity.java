@@ -66,6 +66,7 @@ public class PartsFormActivity extends AppCompatActivity{
         String mail_err = getString(R.string.it_mail);
         String anio_err = getString(R.string.it_anio);
         String espe_err = getString(R.string.it_espe);
+        String anio_err2 = getString(R.string.it_anio2);
         boolean na=true,ma=true,ye=true,es=true,mo=true,pa=true;
 
         if( name.getText().toString().length() == 0 ) {
@@ -78,6 +79,10 @@ public class PartsFormActivity extends AppCompatActivity{
         }
         if( year.getText().toString().length() == 0 ){
             year.setError(anio_err);
+            ye=false;
+        }
+        if( (Integer.parseInt(year.getText().toString())<1917)||(Integer.parseInt(year.getText().toString())>2017)){
+            year.setError(anio_err2);
             ye=false;
         }
         if( espe.getText().toString().length() == 0 ) {

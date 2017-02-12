@@ -18,6 +18,7 @@
     <string name="it_name">Ingrese su nombre</string>
     <string name="it_mail">Ingrese su correo</string>
     <string name="it_anio">Ingrese el año</string>
+    <string name="it_anio2">Ingrese un año valido</string>
     <string name="it_espe">Ingrese la especificación</string>
     <string name="op">Seleccione una Opcion</string>
     <string name="err_mod">Seleccione un opcion en Marca/Modelo</string>

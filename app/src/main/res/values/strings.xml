@@ -18,6 +18,7 @@
     <string name="it_name">Full name required</string>
     <string name="it_mail">E-Mail required</string>
     <string name="it_anio">Year required</string>
+    <string name="it_anio2">Enter a valid year</string>
     <string name="it_espe">Specification required</string>
     <string name="op">Select an Option</string>
     <string name="err_mod">Select an option in Make/Model</string>
