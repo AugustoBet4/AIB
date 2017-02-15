@@ -1,56 +1,94 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="naturalbolivia.com.aibautoparts.MainActivity"
-    android:weightSum="3">
+    android:weightSum="5"
+    android:orientation="vertical"
+    tools:context="naturalbolivia.com.aibautoparts.MainActivity">
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_weight="1">
-        <TextView
+        android:layout_height="@dimen/main.height.cero"
+        android:orientation="vertical"
+        android:layout_weight="3">
+        <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/logo"
-            android:textStyle="bold"
-            android:textSize="70sp"
-            android:gravity="center"/>
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/collage_autos"
+                android:scaleType="centerCrop"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/black"
+                android:alpha="0.7"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/main.height.cero"
+                    android:layout_weight="1">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/main.iv.ancho"
+                        android:src="@drawable/logo"
+                        android:layout_gravity="center|bottom"
+                        android:layout_weight="1"
+                        />
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/tvMensaje"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/main.height.cero"
+                    android:text="@string/main.tv.mensaje"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/main.tv.textsize.mensaje"
+                    android:gravity="top|center_horizontal"
+                    android:layout_marginTop="@dimen/main.tv.margintop"
+                    android:padding="@dimen/main.tv.padding"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+        </RelativeLayout>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_weight="1">
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_weight="1"
-            android:layout_marginRight="10dp"
-            android:text="@string/menu_bt1"
-            android:onClick="parts"/>
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_weight="1"
-            android:layout_marginLeft="10dp"
-            android:text="@string/menu_bt2"
-            android:onClick="inventario"/>
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_weight="1">
-    </LinearLayout>
+        android:layout_height="@dimen/main.height.cero"
+        android:orientation="vertical"
+        android:layout_weight="2"
+        android:background="@android:color/black">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/white"></View>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+            <Button
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:text="@string/menu_bt1"
+                android:background="@drawable/boton_uno"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:textAllCaps="false"
+                android:drawablePadding="0dp"
+                android:onClick="parts"/>
+            <Button
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/boton_dos"
+                android:textColor="@android:color/white"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textAllCaps="false"
+                android:layout_marginTop="20dp"
+                android:onClick="inventario"
+                android:text="@string/menu_bt2"/>
+        </LinearLayout>
 
+    </LinearLayout>
 </LinearLayout>

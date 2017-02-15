@@ -77,12 +77,8 @@ public class PartsFormActivity extends AppCompatActivity{
             mail.setError(mail_err);
             ma=false;
         }
-        if( year.getText().toString().length() == 0 ){
+        if( (year.getText().toString().length() == 0)||(Integer.parseInt(year.getText().toString())<1917)||(Integer.parseInt(year.getText().toString())>2017) ){
             year.setError(anio_err);
-            ye=false;
-        }
-        if( (Integer.parseInt(year.getText().toString())<1917)||(Integer.parseInt(year.getText().toString())>2017)){
-            year.setError(anio_err2);
             ye=false;
         }
         if( espe.getText().toString().length() == 0 ) {

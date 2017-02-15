@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimary">#000000</color>
     <color name="colorPrimaryDark">#464646</color>
     <color name="colorAccent">#000000</color>
+    <color name="bt_enviar_fondo">#ff9900</color>
+    <color name="bt_borrar_fondo">#0009b9</color>
 </resources>

@@ -101,16 +101,28 @@
                 android:orientation="horizontal"
                 android:gravity="center">
                     <Button
+                        android:padding="10dp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/enviar"
                         android:onClick="enviar"
+                        android:layout_marginRight="10dp"
+                        android:drawableLeft="@android:drawable/ic_dialog_email"
+                        android:drawablePadding="10dp"
+                        android:background="@drawable/bt_enviar"
+                        android:textColor="@android:color/white"
                         />
                     <Button
+                        android:padding="10dp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/borrar"
-                        android:onClick="borrar"/>
+                        android:onClick="borrar"
+                        android:layout_marginLeft="10dp"
+                        android:drawableLeft="@android:drawable/ic_input_delete"
+                        android:drawablePadding="10dp"
+                        android:background="@drawable/bt_borrar"
+                        android:textColor="@android:color/white"/>
             </LinearLayout>
         </LinearLayout>
     </ScrollView>
