@@ -29,9 +29,6 @@
     <string name="main.tv.mensaje">Where cars and auto parts are at the best prices</string>
 
 
-
-
-
     <string-array name="model_array">
         <item>Select an Option</item>
         <item>AMC - AMC Ambassador</item>

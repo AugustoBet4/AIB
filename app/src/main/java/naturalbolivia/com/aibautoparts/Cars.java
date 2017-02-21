@@ -1,10 +1,12 @@
 package naturalbolivia.com.aibautoparts;
 
+import java.io.Serializable;
+
 /**
  * Created by GutO on 11/02/2017.
  */
 
-public class Cars {
+public class Cars  implements Serializable{
     private int imagen;
     private String nombre;
     private int visitas;
